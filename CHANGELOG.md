@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.0.0"></a>
+## [2.0.0](https://www.github.com/Maktelier/lights-out-core/releases/tag/v2.0.0) (2023-7-31)
+
+### Features
+
+* Add automated deployment to service manager service (#199) ([9a7d4b5](https://www.github.com/Maktelier/lights-out-core/commit/9a7d4b5c959255e15e9fe8b84dec50ab2ca0179d))
+
+### Breaking Changes
+
+* Add automated deployment to service manager service (#199) ([9a7d4b5](https://www.github.com/Maktelier/lights-out-core/commit/9a7d4b5c959255e15e9fe8b84dec50ab2ca0179d))
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://www.github.com/Maktelier/lights-out-core/releases/tag/v1.0.1) (2023-7-28)
 
