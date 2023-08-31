@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.2.0"></a>
+## [2.2.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.2.0) (2023-8-31)
+
+### Features
+
+* Add ServiceConfiguration dependency and extension (#209) ([454858f](https://www.github.com/palletshuttle/Trak-It/commit/454858f8f34e6fcb7913743fccf82527120f9bb3))
+
 <a name="2.1.0"></a>
 ## [2.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.1.0) (2023-8-31)
 
