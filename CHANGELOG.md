@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.1.0"></a>
+## [2.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.1.0) (2023-8-31)
+
+### Features
+
+* add wms service to service manager (#205) ([c8b181e](https://www.github.com/palletshuttle/Trak-It/commit/c8b181e87dea697d2fd970a1712b37548b11dccd))
+
+<a name="2.0.1"></a>
+## [2.0.1](https://www.github.com/Maktelier/lights-out-core/releases/tag/v2.0.1) (2023-8-8)
+
+### Bug Fixes
+
+* Update CSS for UI (#204) ([c6e6385](https://www.github.com/Maktelier/lights-out-core/commit/c6e638599c78830eba445986ef097f5b0eaac94b))
+
 <a name="2.0.0"></a>
 ## [2.0.0](https://www.github.com/Maktelier/lights-out-core/releases/tag/v2.0.0) (2023-7-31)
 
