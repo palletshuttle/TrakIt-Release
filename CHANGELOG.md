@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.3.0"></a>
+## [2.3.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.3.0) (2023-8-31)
+
+### Features
+
+* Service Name and Release Repo updates (#210) ([1cec697](https://www.github.com/palletshuttle/Trak-It/commit/1cec6974f3abc3edca9bdef765a6a77470460a4a))
+
+### Other
+
+* update naming for consistency ([058edd1](https://www.github.com/palletshuttle/Trak-It/commit/058edd12781a37e296a377e55f4bf088bf21e3ae))
+
 <a name="2.2.0"></a>
 ## [2.2.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.2.0) (2023-8-31)
 
