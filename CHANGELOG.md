@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.4.0"></a>
+## [2.4.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.4.0) (2023-9-5)
+
+### Features
+
+* Allow SDK to see DB options (#211) ([44ae658](https://www.github.com/palletshuttle/Trak-It/commit/44ae658094335dc793a07b25e02e2e38bd2d23a6))
+
 <a name="2.3.0"></a>
 ## [2.3.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.3.0) (2023-8-31)
 
