@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.6.0"></a>
+## [2.6.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.6.0) (2023-9-9)
+
+### Features
+
+* Improve MSI build speed (#213) ([c6f0e4a](https://www.github.com/palletshuttle/Trak-It/commit/c6f0e4aa260934d08c134cafe0d1956489b2d331))
+
 <a name="2.5.0"></a>
 ## [2.5.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.5.0) (2023-9-9)
 
