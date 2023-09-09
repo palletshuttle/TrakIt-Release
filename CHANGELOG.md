@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.5.0"></a>
+## [2.5.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.5.0) (2023-9-9)
+
+### Features
+
+* Support for .NET 4.7.1 for Unity and other tools with c# 8.0 (#212) ([efa2b50](https://www.github.com/palletshuttle/Trak-It/commit/efa2b50c4922f4bc2207dc224a798cd61fe5ff29))
+
 <a name="2.4.0"></a>
 ## [2.4.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.4.0) (2023-9-5)
 
