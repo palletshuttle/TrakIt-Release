@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="2.7.0"></a>
+## [2.7.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.7.0) (2023-9-12)
+
+### Features
+
+* Expand coverage of SDK (#214) ([6a709fd](https://www.github.com/palletshuttle/Trak-It/commit/6a709fd8981ab2717d8b7f07981ebc1583c184a4))
+
+### Other
+
+* Simplify switches in shuttle commander. (#215) ([65e3bf6](https://www.github.com/palletshuttle/Trak-It/commit/65e3bf6d94f18a395741abe5e70f7b7ccd2d29d8))
+
 <a name="2.6.0"></a>
 ## [2.6.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.6.0) (2023-9-9)
 
