@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.0"></a>
+## [3.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v3.0.0) (2023-9-15)
+
+### Features
+
+* Add and refactor inventory events with documentation updates. (#277) ([4cbb218](https://www.github.com/palletshuttle/Trak-It/commit/4cbb2186d36426f86b46d11c81a7214c59ce34b2))
+
+### Breaking Changes
+
+* Add and refactor inventory events with documentation updates. (#277) ([4cbb218](https://www.github.com/palletshuttle/Trak-It/commit/4cbb2186d36426f86b46d11c81a7214c59ce34b2))
+
+### Other
+
+* Add UI requirements documentation for reference ([7d3d55b](https://www.github.com/palletshuttle/Trak-It/commit/7d3d55b2d9112e9533d8494124d7a4f6c21659d5))
+* Update Customer Setup.md ([1d2cd47](https://www.github.com/palletshuttle/Trak-It/commit/1d2cd47be3f6dd3d380e0165105e3659bcc1da04))
+
 <a name="2.7.0"></a>
 ## [2.7.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v2.7.0) (2023-9-12)
 
