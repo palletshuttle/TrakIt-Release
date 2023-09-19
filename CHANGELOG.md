@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.1.0"></a>
+## [3.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v3.1.0) (2023-09-19)
+
+### Features
+
+* AI and SDK update for inventory event management (#280) ([ba131b6](https://www.github.com/palletshuttle/Trak-It/commit/ba131b6b19e6030990864796c30ca0e2a40b4bbc))
+
+### Other
+
+* Add missing articles ([a720939](https://www.github.com/palletshuttle/Trak-It/commit/a720939b26f02b9c6811d759744c5bfd23ed9066))
+* update polling time for service to daily ([eeeafcc](https://www.github.com/palletshuttle/Trak-It/commit/eeeafcc2c6e8faec030dd8bc5f9d85877db34fc4))
+
 <a name="3.0.0"></a>
 ## [3.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v3.0.0) (2023-9-15)
 
