@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.1.1"></a>
+## [3.1.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v3.1.1) (2023-09-20)
+
+### Bug Fixes
+
+* Correct UI files ([77ae2e6](https://www.github.com/palletshuttle/Trak-It/commit/77ae2e67989a08227ec86db3986aec36c7f4b646))
+
 <a name="3.1.0"></a>
 ## [3.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v3.1.0) (2023-09-19)
 
