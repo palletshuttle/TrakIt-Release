@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.0"></a>
+## [4.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.0.0) (2023-09-21)
+
+### Features
+
+* Pallet induction process MVP for direct put away strategy (#284) ([05ab9f2](https://www.github.com/palletshuttle/Trak-It/commit/05ab9f2c19dbca5fc89e0ae00638b5cb47db1259))
+
+### Breaking Changes
+
+* Pallet induction process MVP for direct put away strategy (#284) ([05ab9f2](https://www.github.com/palletshuttle/Trak-It/commit/05ab9f2c19dbca5fc89e0ae00638b5cb47db1259))
+
 <a name="3.1.1"></a>
 ## [3.1.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v3.1.1) (2023-09-20)
 
