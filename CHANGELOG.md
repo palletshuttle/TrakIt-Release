@@ -3,15 +3,22 @@
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
 <a name="4.0.0"></a>
-## [4.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.0.0) (2023-09-21)
+## [4.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.0.0) (2023-09-22)
 
 ### Features
 
 * Pallet induction process MVP for direct put away strategy (#284) ([05ab9f2](https://www.github.com/palletshuttle/Trak-It/commit/05ab9f2c19dbca5fc89e0ae00638b5cb47db1259))
+* Pallet Induction update to leverage state and status code with more event options (#289) ([04461e7](https://www.github.com/palletshuttle/Trak-It/commit/04461e701f630374b90ed8a53fe72498ca16d7cb))
 
 ### Breaking Changes
 
 * Pallet induction process MVP for direct put away strategy (#284) ([05ab9f2](https://www.github.com/palletshuttle/Trak-It/commit/05ab9f2c19dbca5fc89e0ae00638b5cb47db1259))
+* Pallet Induction update to leverage state and status code with more event options (#289) ([04461e7](https://www.github.com/palletshuttle/Trak-It/commit/04461e701f630374b90ed8a53fe72498ca16d7cb))
+
+### Other
+
+* Clarify Versionize usage ([0940269](https://www.github.com/palletshuttle/Trak-It/commit/09402695df2d1a585561aa97767b426e844f679f))
+* Clean up publishing for UI project ([955b748](https://www.github.com/palletshuttle/Trak-It/commit/955b748723c6aaa6befba2d05bf172239deb79ac))
 
 <a name="3.1.1"></a>
 ## [3.1.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v3.1.1) (2023-09-20)
