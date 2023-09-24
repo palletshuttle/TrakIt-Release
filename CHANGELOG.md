@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.3.1"></a>
+## [4.3.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.3.1) (2023-09-24)
+
+### Bug Fixes
+
+* Target Framework for SDK now 2.1 for broader support (#293) ([5e3f968](https://www.github.com/palletshuttle/Trak-It/commit/5e3f968ac65674064c072e294a0906249bcadcad))
+* UI inventory movement sets location based on storage group to min entry point by x value as the default behavior (#292) ([ae0cd57](https://www.github.com/palletshuttle/Trak-It/commit/ae0cd57b3b3aab05ae76e78ab76fa27e6dd74822))
+
 <a name="4.3.0"></a>
 ## [4.3.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.3.0) (2023-09-22)
 
