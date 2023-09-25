@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.3.2"></a>
+## [4.3.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.3.2) (2023-09-25)
+
+### Bug Fixes
+
+* Add logging to shuttle comms ([a6dbcdc](https://www.github.com/palletshuttle/Trak-It/commit/a6dbcdcf750933cdfc49dbde50f26c81c1cfb82e))
+
 <a name="4.3.1"></a>
 ## [4.3.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.3.1) (2023-09-24)
 
