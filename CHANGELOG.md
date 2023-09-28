@@ -2,12 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
-<a name="4.3.2"></a>
-## [4.3.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.3.2) (2023-09-25)
+<a name="5.0.0"></a>
+## [5.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v5.0.0) (2023-09-28)
 
 ### Bug Fixes
 
-* Add logging to shuttle comms ([a6dbcdc](https://www.github.com/palletshuttle/Trak-It/commit/a6dbcdcf750933cdfc49dbde50f26c81c1cfb82e))
+* Bug in entity framework navigation property for deposit into storage fixed. ([4cb9f13](https://www.github.com/palletshuttle/Trak-It/commit/4cb9f13f79b30c7ae55b3cb61fbc7487666dcae3))
+* Minor fixes (#294) ([779bd55](https://www.github.com/palletshuttle/Trak-It/commit/779bd556f4ce492a78ba73e4745c4b38ebb113b2))
+* Update Directory.Build.props (#295) ([688b704](https://www.github.com/palletshuttle/Trak-It/commit/688b7049df15a8a2691650fec59680ea01652cbf))
+
+### Breaking Changes
+
+* Update Directory.Build.props (#295) ([688b704](https://www.github.com/palletshuttle/Trak-It/commit/688b7049df15a8a2691650fec59680ea01652cbf))
+
+### Other
+
+* update documents and add modbus config notes ([335167a](https://www.github.com/palletshuttle/Trak-It/commit/335167a83d354a83b813b90fcca5bb1c8798a43c))
 
 <a name="4.3.1"></a>
 ## [4.3.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v4.3.1) (2023-09-24)
