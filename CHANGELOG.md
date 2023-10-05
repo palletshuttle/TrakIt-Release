@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.1.0"></a>
+## [5.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v5.1.0) (2023-10-05)
+
+### Features
+
+* Shuttle actor system (#301) ([ba904a9](https://www.github.com/palletshuttle/Trak-It/commit/ba904a9466f2fbfb0b71409f74839b8e4447404a))
+
+### Other
+
+* add deployment settings ([332ecc4](https://www.github.com/palletshuttle/Trak-It/commit/332ecc4cb7aee1a3cba5f74d31241a4697ee7b87))
+* Add mermaid.js flow for receiving logic ([de3ae67](https://www.github.com/palletshuttle/Trak-It/commit/de3ae676b4299085284b487668cb10109d55f2e2))
+* Add system summary and itemized overview to repo README ([d1b2be9](https://www.github.com/palletshuttle/Trak-It/commit/d1b2be9ae30cb8e4ba318a92a6a39d1e8c7440af))
+* Receiving Logic Documentation ([68588a7](https://www.github.com/palletshuttle/Trak-It/commit/68588a7e1babd0f15a9c302cd6b869c9d041e65d))
+* September 2023 release notes (#300) ([2629a5c](https://www.github.com/palletshuttle/Trak-It/commit/2629a5c92e26616a39aeebf0884ec1b20df76a5b))
+
 <a name="5.0.0"></a>
 ## [5.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v5.0.0) (2023-09-28)
 
