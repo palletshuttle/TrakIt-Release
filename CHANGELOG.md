@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.0.0"></a>
+## [6.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.0.0) (2023-11-14)
+
+### Features
+
+* MVP support for inbound load processing ([#308](https://www.github.com/palletshuttle/Trak-It/issues/308)) ([f2fb30f](https://www.github.com/palletshuttle/Trak-It/commit/f2fb30f6e057d6d1a5bdab8294a6388b886cd998))
+
+### Breaking Changes
+
+* MVP support for inbound load processing ([#308](https://www.github.com/palletshuttle/Trak-It/issues/308)) ([f2fb30f](https://www.github.com/palletshuttle/Trak-It/commit/f2fb30f6e057d6d1a5bdab8294a6388b886cd998))
+
+### Other
+
+* Shuttle versioning (#307) ([6bbb3f1](https://www.github.com/palletshuttle/Trak-It/commit/6bbb3f147eeeb33532c46002f3aaf6c1d103f3f5))
+* Minor tweak to linqpad script for testing ([66914f5](https://www.github.com/palletshuttle/Trak-It/commit/66914f5c1d256374cb3fd8ad2f2b1dcb7812a508))
+* Update publish profiles ([c56c89f](https://www.github.com/palletshuttle/Trak-It/commit/c56c89fb48576d2b016da96f94a09734015a0369))
+
 <a name="5.2.0"></a>
 ## [5.2.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v5.2.0) (2023-10-25)
 
