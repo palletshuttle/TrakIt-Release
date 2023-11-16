@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.0.1"></a>
+## [6.0.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.0.1) (2023-11-16)
+
+### Bug Fixes
+
+* Make client plugin loader less restrictive.  ([#310](https://www.github.com/palletshuttle/Trak-It/issues/310)) ([5281205](https://www.github.com/palletshuttle/Trak-It/commit/5281205d85b06f87c1660a4c828488fb564e27c6))
+
 <a name="6.0.0"></a>
 ## [6.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.0.0) (2023-11-14)
 
