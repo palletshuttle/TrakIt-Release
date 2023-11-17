@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.1.0"></a>
+## [6.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.1.0) (2023-11-17)
+
+### Features
+
+* Show shuttle software version in UI ([#311](https://www.github.com/palletshuttle/Trak-It/issues/311)) ([3339a09](https://www.github.com/palletshuttle/Trak-It/commit/3339a0993247d4a297d00b01560ceb196f0dbe6d))
+
 <a name="6.0.1"></a>
 ## [6.0.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.0.1) (2023-11-16)
 
