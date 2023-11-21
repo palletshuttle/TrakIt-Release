@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.1.1"></a>
+## [6.1.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.1.1) (2023-11-21)
+
+### Bug Fixes
+
+* null ref when creating new task in P&C in UI. ([#312](https://www.github.com/palletshuttle/Trak-It/issues/312)) ([071df73](https://www.github.com/palletshuttle/Trak-It/commit/071df736efdd0795b1c72b6e35efeca82f055537))
+
 <a name="6.1.0"></a>
 ## [6.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.1.0) (2023-11-17)
 
