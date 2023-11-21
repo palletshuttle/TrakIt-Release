@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.1.2"></a>
+## [6.1.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.1.2) (2023-11-21)
+
+### Bug Fixes
+
+* state of charge for battery properly displays in UI. ([#313](https://www.github.com/palletshuttle/Trak-It/issues/313)) ([2e62a46](https://www.github.com/palletshuttle/Trak-It/commit/2e62a466dece704a33c999e0f6aee49698526cc8))
+
+### Other
+
+* Update web server setup docs to include notes on ASPNETCORE_ENVIRONMENT for production use ([#314](https://www.github.com/palletshuttle/Trak-It/issues/314)) ([4e8439a](https://www.github.com/palletshuttle/Trak-It/commit/4e8439a75dd93448e8fc149796b488ac359100da))
+
 <a name="6.1.1"></a>
 ## [6.1.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.1.1) (2023-11-21)
 
