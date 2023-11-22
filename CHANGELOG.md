@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.2.0"></a>
+## [6.2.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.2.0) (2023-11-22)
+
+### Features
+
+* Procedural Map testing overhaul using new test library. ([#315](https://www.github.com/palletshuttle/Trak-It/issues/315)) ([80cd729](https://www.github.com/palletshuttle/Trak-It/commit/80cd729e01f74463370fd58df8df129c531d4e86))
+
 <a name="6.1.2"></a>
 ## [6.1.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.1.2) (2023-11-21)
 
