@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.4.0"></a>
+## [6.4.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.4.0) (2023-11-23)
+
+### Features
+
+* AI Charge tasking update, Support pathing to more location types from charger, properly cleanup single action compound task. ([#317](https://www.github.com/palletshuttle/Trak-It/issues/317)) ([617b2c4](https://www.github.com/palletshuttle/Trak-It/commit/617b2c4421f1d7be02e2a27c8007f5ddf763819d))
+
 <a name="6.3.0"></a>
 ## [6.3.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.3.0) (2023-11-23)
 
