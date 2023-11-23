@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.3.0"></a>
+## [6.3.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.3.0) (2023-11-23)
+
+### Features
+
+* Improve task cancellation handling to support compound tasks and prevent cancelling while shuttle is actively completing current segment. ([#316](https://www.github.com/palletshuttle/Trak-It/issues/316)) ([0cebb26](https://www.github.com/palletshuttle/Trak-It/commit/0cebb264f460c6f302582f801f46846549e75e6d))
+
 <a name="6.2.0"></a>
 ## [6.2.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.2.0) (2023-11-22)
 
