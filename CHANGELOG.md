@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.5.0"></a>
+## [6.5.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.5.0) (2023-11-29)
+
+### Features
+
+* Add support for .NET 8.0 ([#318](https://www.github.com/palletshuttle/Trak-It/issues/318)) ([3619f1c](https://www.github.com/palletshuttle/Trak-It/commit/3619f1c32d90c3edcc6237ba470a3a9224ab277e))
+
 <a name="6.4.0"></a>
 ## [6.4.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.4.0) (2023-11-23)
 
