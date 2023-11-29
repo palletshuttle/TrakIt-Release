@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="6.5.1"></a>
+## [6.5.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.5.1) (2023-11-29)
+
+### Bug Fixes
+
+* Server deployment script now user's current user path, not a hardcoded value. ([#319](https://www.github.com/palletshuttle/Trak-It/issues/319)) ([7d264bf](https://www.github.com/palletshuttle/Trak-It/commit/7d264bf36f70f2989805529121ed293eaac37e14))
+* UI NET 8.x fixes ([#320](https://www.github.com/palletshuttle/Trak-It/issues/320)) ([1cff472](https://www.github.com/palletshuttle/Trak-It/commit/1cff47247406fe39b58ae7f76d6ed945c39bbe70))
+
 <a name="6.5.0"></a>
 ## [6.5.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.5.0) (2023-11-29)
 
