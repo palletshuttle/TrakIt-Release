@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="7.0.0"></a>
+## [7.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.0) (2023-12-05)
+
+### Features
+
+* Remove support for (1,1,1) based origin in favor of more common (0,0,0) for various improvements and optimizations. ([#334](https://www.github.com/palletshuttle/Trak-It/issues/334)) ([25b2c84](https://www.github.com/palletshuttle/Trak-It/commit/25b2c84e3ab6c42edf08432bcc6d4de0ece2289b))
+
+### Breaking Changes
+
+* Remove support for (1,1,1) based origin in favor of more common (0,0,0) for various improvements and optimizations. ([#334](https://www.github.com/palletshuttle/Trak-It/issues/334)) ([25b2c84](https://www.github.com/palletshuttle/Trak-It/commit/25b2c84e3ab6c42edf08432bcc6d4de0ece2289b))
+
 <a name="6.5.1"></a>
 ## [6.5.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v6.5.1) (2023-11-29)
 
