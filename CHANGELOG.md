@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="7.0.1"></a>
+## [7.0.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.1) (2023-12-06)
+
+### Bug Fixes
+
+* Charge task service now creates initial task with CreatedOn and ModifiedOn timestamp. ([#336](https://www.github.com/palletshuttle/Trak-It/issues/336)) ([706898c](https://www.github.com/palletshuttle/Trak-It/commit/706898c32be91d36fc853fa28650b4c3596611cb))
+
 <a name="7.0.0"></a>
 ## [7.0.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.0) (2023-12-05)
 
