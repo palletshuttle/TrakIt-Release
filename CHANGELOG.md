@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="7.0.2"></a>
+## [7.0.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.2) (2023-12-06)
+
+### Bug Fixes
+
+* Issue [#326](https://www.github.com/palletshuttle/Trak-It/issues/326) - AI Pathfinding Error Handling in Shuttle System (Invalid tasks are now cancelled by AI to avoid queue pollution). Task Cancellation issues resolved in this update as well for single action compound tasks. ([#337](https://www.github.com/palletshuttle/Trak-It/issues/337)) ([ecf100e](https://www.github.com/palletshuttle/Trak-It/commit/ecf100eaa275d157ca968aca883ec08e43078d0e))
+
 <a name="7.0.1"></a>
 ## [7.0.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.1) (2023-12-06)
 
