@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="7.0.3"></a>
+## [7.0.3](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.3) (2023-12-06)
+
+### Bug Fixes
+
+* Fix [#339](https://www.github.com/palletshuttle/Trak-It/issues/339) - Issue preventing AI from pathing out of non-conforming charger locations. ([#340](https://www.github.com/palletshuttle/Trak-It/issues/340)) ([278d73b](https://www.github.com/palletshuttle/Trak-It/commit/278d73bf29249defdf48df0db09cd12ca17e858f))
+
 <a name="7.0.2"></a>
 ## [7.0.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.2) (2023-12-06)
 
