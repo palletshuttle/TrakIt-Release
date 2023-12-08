@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="7.1.2"></a>
+## [7.1.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.1.2) (2023-12-08)
+
+### Bug Fixes
+
+* Charge task erroneously assigned during creation instead of by AI task manager. ([#346](https://www.github.com/palletshuttle/Trak-It/issues/346)) ([87571e6](https://www.github.com/palletshuttle/Trak-It/commit/87571e60344bee96e456807c694c5bc8df82ee87))
+
 <a name="7.1.1"></a>
 ## [7.1.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.1.1) (2023-12-08)
 
