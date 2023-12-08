@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="7.1.1"></a>
+## [7.1.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.1.1) (2023-12-08)
+
+### Bug Fixes
+
+* All task definitions updated to have correct ModifiedOn and CreatedOn timestamps upon creation (UTC time) ([#342](https://www.github.com/palletshuttle/Trak-It/issues/342)) ([4c20860](https://www.github.com/palletshuttle/Trak-It/commit/4c20860caae7cf3500bfbab206566f6ef877f7c7))
+
+### Other
+
+* Add move info to shuttle control center. ([#345](https://www.github.com/palletshuttle/Trak-It/issues/345)) ([b1fed87](https://www.github.com/palletshuttle/Trak-It/commit/b1fed87e594a585e0438d8c11ed16940520c36d0))
+
 <a name="7.1.0"></a>
 ## [7.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.1.0) (2023-12-08)
 
