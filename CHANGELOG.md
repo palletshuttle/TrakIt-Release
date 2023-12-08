@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="7.1.0"></a>
+## [7.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.1.0) (2023-12-08)
+
+### Features
+
+* Improve logic for inbound load processing. ([#341](https://www.github.com/palletshuttle/Trak-It/issues/341)) ([5e21edc](https://www.github.com/palletshuttle/Trak-It/commit/5e21edca89be153608de4d5dd62ff74c90b424af))
+
 <a name="7.0.3"></a>
 ## [7.0.3](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.0.3) (2023-12-06)
 
