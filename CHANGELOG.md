@@ -2,6 +2,58 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="8.1.0-alpha.1"></a>
+## [8.1.0-alpha.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.1) (2024-03-18)
+
+### Bug Fixes
+
+* version update ([#455](https://www.github.com/palletshuttle/Trak-It/issues/455)) ([64692b3](https://www.github.com/palletshuttle/Trak-It/commit/64692b3e7085863fc38cc81414d93c6b07092ebb))
+
+### Other
+
+* enable release of artifacts to release repo ([#454](https://www.github.com/palletshuttle/Trak-It/issues/454)) ([62a1e17](https://www.github.com/palletshuttle/Trak-It/commit/62a1e17e1ecf2e017f765265d9727a4607889428))
+
+<a name="8.1.0-alpha.0"></a>
+## [8.1.0-alpha.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.0) (2024-03-18)
+
+### Features
+
+* Enable remote RabbitMQ configuration ([#452](https://www.github.com/palletshuttle/Trak-It/issues/452)) ([035da67](https://www.github.com/palletshuttle/Trak-It/commit/035da6782ee1818ef62a2d259e1d891b4188bbe5))
+
+### Other
+
+* Add fields to PalletCreatedEvent ([a616528](https://www.github.com/palletshuttle/Trak-It/commit/a61652826f3aaf006d8da3e90a86a63c34299f95))
+* add params missing from create event update ([ea77976](https://www.github.com/palletshuttle/Trak-It/commit/ea77976e68bdf5a6e9b41e46bb086c5f1fe1ca2b))
+
+<a name="8.0.17-alpha.2"></a>
+## [8.0.17-alpha.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.0.17-alpha.2) (2024-03-17)
+
+### Bug Fixes
+
+* Remove default SKU, AI no dynamically assigns storage lanes ([59aab83](https://www.github.com/palletshuttle/Trak-It/commit/59aab83048adc7225a96d376ed6471c1a5295e41))
+
+### Other
+
+* Add exception catch for location query ([176c0c6](https://www.github.com/palletshuttle/Trak-It/commit/176c0c6978b76fba6747df29c84a9c7dcf23b89d))
+* Set default start locations for seed shuttles for virtual tests ([5671966](https://www.github.com/palletshuttle/Trak-It/commit/5671966d4ed90bdc12fd95e312b5b2e618a3856b))
+
+<a name="8.0.17-alpha.1"></a>
+## [8.0.17-alpha.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.0.17-alpha.1) (2024-03-15)
+
+### Bug Fixes
+
+* Update shuttle comms WIX installer ([de214e8](https://www.github.com/palletshuttle/Trak-It/commit/de214e81691c3f0a7c852e2bd55acaae523512be))
+
+<a name="8.0.17-alpha.0"></a>
+## [8.0.17-alpha.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.0.17-alpha.0) (2024-03-14)
+
+### Bug Fixes
+
+* Configure services to share RabbitMQ configuration ([#446](https://www.github.com/palletshuttle/Trak-It/issues/446)) ([e837772](https://www.github.com/palletshuttle/Trak-It/commit/e837772d477a4e49a0c0d2b38e2bcd112b97ff51))
+* Create add/remvoe pallet domain events ([#450](https://www.github.com/palletshuttle/Trak-It/issues/450)) ([7b68397](https://www.github.com/palletshuttle/Trak-It/commit/7b683977384d2db4c9a95cae898c5c344b250aa2))
+* Create procedural map seed from Solidworks IDE map serialization ([#442](https://www.github.com/palletshuttle/Trak-It/issues/442)) ([7f0478e](https://www.github.com/palletshuttle/Trak-It/commit/7f0478e6262bd0f60e4350966208db165246c25c))
+* Location based events and change lock/unlock of segments to use shuttle ID instead of Task ID ([#451](https://www.github.com/palletshuttle/Trak-It/issues/451)) ([51d91b0](https://www.github.com/palletshuttle/Trak-It/commit/51d91b0eef365fc3d2da3c2561e4d25734d74e06))
+
 <a name="7.1.2"></a>
 ## [7.1.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v7.1.2) (2023-12-08)
 
