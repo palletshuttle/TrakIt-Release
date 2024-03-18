@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="8.1.0-alpha.3"></a>
+## [8.1.0-alpha.3](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.3) (2024-03-18)
+
+### Bug Fixes
+
+* download artifacts during release ([#457](https://www.github.com/palletshuttle/Trak-It/issues/457)) ([9610c64](https://www.github.com/palletshuttle/Trak-It/commit/9610c64ee1a0177fb257fc747d01bc20e00ba6ae))
+
 <a name="8.1.0-alpha.2"></a>
 ## [8.1.0-alpha.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.2) (2024-03-18)
 
