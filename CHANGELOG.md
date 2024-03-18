@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="8.1.0-alpha.2"></a>
+## [8.1.0-alpha.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.2) (2024-03-18)
+
+### Bug Fixes
+
+* fix publish release order ([#456](https://www.github.com/palletshuttle/Trak-It/issues/456)) ([ccc7190](https://www.github.com/palletshuttle/Trak-It/commit/ccc71906c21cc091cd462be3e40000976c979fe0))
+
+### Other
+
+* Add CI status badge to README.md ([8661462](https://www.github.com/palletshuttle/Trak-It/commit/866146283259ab23aeb8d7f849e2c56551a949f2))
+
 <a name="8.1.0-alpha.1"></a>
 ## [8.1.0-alpha.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.1) (2024-03-18)
 
