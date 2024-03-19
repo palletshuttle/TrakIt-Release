@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="8.1.0-alpha.7"></a>
+## [8.1.0-alpha.7](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.7) (2024-03-19)
+
+### Bug Fixes
+
+* added palletcreatedevent to eventhub ([8b3a6c5](https://www.github.com/palletshuttle/Trak-It/commit/8b3a6c59e2166d497f0e1d4eb3383402b53a3e7a))
+
 <a name="8.1.0-alpha.6"></a>
 ## [8.1.0-alpha.6](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.6) (2024-03-19)
 
