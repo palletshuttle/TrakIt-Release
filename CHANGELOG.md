@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="8.1.0-alpha.10"></a>
+## [8.1.0-alpha.10](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.10) (2024-03-19)
+
+### Bug Fixes
+
+* upload artifact v4 for wix ([de84c9c](https://www.github.com/palletshuttle/Trak-It/commit/de84c9cff94abca63ff75f300aa496d7113e0364))
+
+### Other
+
+* make versionize depend on successful wix build ([1b56a6d](https://www.github.com/palletshuttle/Trak-It/commit/1b56a6de122a69939aa29a23b2c6253016566833))
+
 <a name="8.1.0-alpha.9"></a>
 ## [8.1.0-alpha.9](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.9) (2024-03-19)
 
