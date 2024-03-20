@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="8.1.0-alpha.11"></a>
+## [8.1.0-alpha.11](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.11) (2024-03-20)
+
+### Bug Fixes
+
+* Add generated logging support to shuttle comms to improve performance ([1ce641d](https://www.github.com/palletshuttle/Trak-It/commit/1ce641d7514e019cb82ac8735e7918606e35ea0c))
+* Deployment and seed data fixes ([#460](https://www.github.com/palletshuttle/Trak-It/issues/460)) ([845b919](https://www.github.com/palletshuttle/Trak-It/commit/845b91932ad9f809a623551385df01459bb499ef))
+* generate odata client ([#461](https://www.github.com/palletshuttle/Trak-It/issues/461)) ([da5e48f](https://www.github.com/palletshuttle/Trak-It/commit/da5e48ff7b784869d45d424bfcadfda4e793b6b9))
+* Minor test fix for new function mapping schema ([f894ece](https://www.github.com/palletshuttle/Trak-It/commit/f894ece2389ebb8aab426681f34d5104792fb304))
+
+### Other
+
+* seed psa-shop map ([ee89262](https://www.github.com/palletshuttle/Trak-It/commit/ee89262bea66e5424cc10dca1d2b9973b379f60d))
+
 <a name="8.1.0-alpha.10"></a>
 ## [8.1.0-alpha.10](https://www.github.com/palletshuttle/Trak-It/releases/tag/v8.1.0-alpha.10) (2024-03-19)
 
