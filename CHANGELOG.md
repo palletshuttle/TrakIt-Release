@@ -2,8 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
-<a name="9.0.1"></a>
-## [9.0.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1) (2024-03-21)
+<a name="9.0.1-alpha.0"></a>
+## [9.0.1-alpha.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.0) (2024-03-21)
 
 ### Bug Fixes
 
