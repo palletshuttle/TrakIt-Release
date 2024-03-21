@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.1"></a>
+## [9.0.1-alpha.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.1) (2024-03-21)
+
+### Bug Fixes
+
+* Add conditional windows support for shuttle comms ([71280fc](https://www.github.com/palletshuttle/Trak-It/commit/71280fc73d2bcb72cd86a8c741c33c1ec6eddff0))
+
+### Other
+
+* Merge branch 'master' into development ([2561a3e](https://www.github.com/palletshuttle/Trak-It/commit/2561a3ef06c702bba93a34102e84b29ff4376cf0))
+* **release:** 9.0.1 ([2e87383](https://www.github.com/palletshuttle/Trak-It/commit/2e87383cadf39cf23d899532780dea733f1a8acd))
+
 <a name="9.0.1-alpha.0"></a>
 ## [9.0.1-alpha.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.0) (2024-03-21)
 
