@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.2"></a>
+## [9.0.1-alpha.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.2) (2024-03-22)
+
+### Bug Fixes
+
+* added unity project ([#470](https://www.github.com/palletshuttle/Trak-It/issues/470)) ([12282e4](https://www.github.com/palletshuttle/Trak-It/commit/12282e4e31528ae370b393a3a7733fbd6d00e685))
+
+### Other
+
+* Add large sample map ([681ae4e](https://www.github.com/palletshuttle/Trak-It/commit/681ae4eeac5244a337440dc5b34bc6c9f45cb8f5))
+
 <a name="9.0.1-alpha.1"></a>
 ## [9.0.1-alpha.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.1) (2024-03-21)
 
