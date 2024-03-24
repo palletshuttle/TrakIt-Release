@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.5"></a>
+## [9.0.1-alpha.5](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.5) (2024-03-24)
+
+### Bug Fixes
+
+* fix release pipeline argument alignment ([d3d00f6](https://www.github.com/palletshuttle/Trak-It/commit/d3d00f68eea8c56068cb51fddd032d3d6b5b884f))
+
+### Other
+
+* Merge branch 'development' of https://github.com/palletshuttle/Trak-It into development ([0709867](https://www.github.com/palletshuttle/Trak-It/commit/0709867fd5e3f57374bdd281aaf54fe55260dba1))
+
+<a name="9.0.1-alpha.4"></a>
+## [9.0.1-alpha.4](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.4) (2024-03-24)
+
+### Bug Fixes
+
+* install .net ef core in release pipeline ([64d538a](https://www.github.com/palletshuttle/Trak-It/commit/64d538a612fa362172dda7a733d852ae9bdf4fd3))
+
+### Other
+
+* Merge branch 'development' of https://github.com/palletshuttle/Trak-It into development ([b7a5c23](https://www.github.com/palletshuttle/Trak-It/commit/b7a5c233ab82969ae409420bb43214ed90e68fa0))
+
+<a name="9.0.1-alpha.3"></a>
+## [9.0.1-alpha.3](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.3) (2024-03-24)
+
+### Bug Fixes
+
+* added unity meta files ([#472](https://www.github.com/palletshuttle/Trak-It/issues/472)) ([cb6c2d6](https://www.github.com/palletshuttle/Trak-It/commit/cb6c2d68f8d1921b4292adf6b48dc9f954a99890))
+* added unity tss files ([#473](https://www.github.com/palletshuttle/Trak-It/issues/473)) ([c4919c1](https://www.github.com/palletshuttle/Trak-It/commit/c4919c1aa73cd19e1feb32a6c1653bd2dc3b4adf))
+* Release migration scripts ([#474](https://www.github.com/palletshuttle/Trak-It/issues/474)) ([86acc92](https://www.github.com/palletshuttle/Trak-It/commit/86acc92bfb6e6980d2db55a208a1de101b5b9fbb))
+
 <a name="9.0.1-alpha.2"></a>
 ## [9.0.1-alpha.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.2) (2024-03-22)
 
