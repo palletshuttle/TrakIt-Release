@@ -30,8 +30,8 @@ services:
       sql:
         condition: service_healthy
     environment:
-      DELETE_DATABASE: ${DELETE_DATABASE}
-      MAP_SEED_JSON: ${MAP_SEED_JSON}
+      DELETE_DATABASE: ${DELETE_DATABASE:-}
+      MAP_SEED_JSON: ${MAP_SEED_JSON:-}
     image: ghcr.io/palletshuttle/db-ready:${TAG:-latest}
     extends:
       file: docker-compose-base.yml
