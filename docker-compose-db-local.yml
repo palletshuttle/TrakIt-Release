@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  sql:
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: Pass@word
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    labels:
+      com.jetbrains.rider.debug: "false"
+    networks: [backend]
+    ports: ["1433:1433"]
+    healthcheck:
+      test: >-
+        /opt/mssql-tools/bin/sqlcmd
+        -S localhost
+        -U sa
+        -P "$$SA_PASSWORD"
+        -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 3s
+      retries: 20
+      start_period: 10s
+
+  db-ready:
+    build:
+      context: .
+      dockerfile: src/TrakIt.DatabaseReady/src/Dockerfile
+    depends_on:
+      sql:
+        condition: service_healthy
+    environment:
+      DELETE_DATABASE: ${DELETE_DATABASE}
+    image: ghcr.io/palletshuttle/db-ready:${TAG:-latest}
+    extends:
+      file: docker-compose-base.yml
+      service: base
+    networks: [backend]
+
+networks:
+  backend:
+    driver: bridge

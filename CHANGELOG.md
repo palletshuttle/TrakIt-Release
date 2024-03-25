@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.8"></a>
+## [9.0.1-alpha.8](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.8) (2024-03-25)
+
+### Bug Fixes
+
+* cone mode for sparse-checkout ([32d468b](https://www.github.com/palletshuttle/Trak-It/commit/32d468b9c87e5d7cfc3ccaf4c1f343ba94b4d13a))
+* copy release folder to release repo ([6a0c4bb](https://www.github.com/palletshuttle/Trak-It/commit/6a0c4bb44a1633c640b03368ccd77a8dd48404bb))
+
+<a name="9.0.1-alpha.7"></a>
+## [9.0.1-alpha.7](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.7) (2024-03-25)
+
+### Bug Fixes
+
+* add release documentation ([b4fe69f](https://www.github.com/palletshuttle/Trak-It/commit/b4fe69f0282e8e347d52ad5330587af20b84100e))
+* empty commit ([f2c465a](https://www.github.com/palletshuttle/Trak-It/commit/f2c465a1d81e550326deb1ca038b80cf424734e4))
+* include release folder in ci ([29814cd](https://www.github.com/palletshuttle/Trak-It/commit/29814cd3909f007334b895498872563e9cb41d33))
+
+### Other
+
+* add docker-compose files to release repo ([e7f099d](https://www.github.com/palletshuttle/Trak-It/commit/e7f099df381163a170124b559ba0a461be87e6ae))
+
 <a name="9.0.1-alpha.6"></a>
 ## [9.0.1-alpha.6](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.6) (2024-03-24)
 

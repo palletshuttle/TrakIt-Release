@@ -1,0 +1,12 @@
+services:
+  base:
+    build:
+      labels:
+        org.opencontainers.image.source: https://github.com/palletshuttle/TrakIt-Release
+    environment:
+      ApiClient__BaseUrl: ${ApiClient__BaseUrl}
+      DatabaseOptions__ConnectionString: ${DatabaseOptions__ConnectionString}
+      IdentityDatabase__ConnectionString: ${IdentityDatabase__ConnectionString}
+      RabbitMq__HostName: ${RabbitMq__HostName}
+      RabbitMq__UserName: ${RabbitMq__UserName}
+      RabbitMq__Password: ${RabbitMq__Password}
