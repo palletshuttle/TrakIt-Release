@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.12"></a>
+## [9.0.1-alpha.12](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.12) (2024-03-25)
+
+### Bug Fixes
+
+* Publish docker ([#476](https://www.github.com/palletshuttle/Trak-It/issues/476)) ([449aefa](https://www.github.com/palletshuttle/Trak-It/commit/449aefaad0d24b46b6e5041e50b33fd76c71f10f))
+
 <a name="9.0.1-alpha.11"></a>
 ## [9.0.1-alpha.11](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.11) (2024-03-25)
 

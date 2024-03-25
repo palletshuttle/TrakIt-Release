@@ -35,7 +35,7 @@
 
    - For `docker-compose-db` and `docker-compose-rabbitmq`, decide whether you are hosting SQL / RabbitMQ in Docker (`local`) or in a separately maintained server (`remote`).
 
-   - To test TrakIt, set the `--profile` to `--virtual`.
+   - To test TrakIt, set the `--profile` to `virtual`.
 
    - If you are running the `shuttle-comms-service` in a separate server, remove the `--profile` setting entirely.
 
