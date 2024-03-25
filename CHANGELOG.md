@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.13"></a>
+## [9.0.1-alpha.13](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.13) (2024-03-25)
+
+### Bug Fixes
+
+* Separate shuttle actual move event from AI assignment of new move request to provide more granularity to consumers ([5252ae2](https://www.github.com/palletshuttle/Trak-It/commit/5252ae2eea59ac15743c8062dfb689df68b7ebda))
+
 <a name="9.0.1-alpha.12"></a>
 ## [9.0.1-alpha.12](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.12) (2024-03-25)
 
