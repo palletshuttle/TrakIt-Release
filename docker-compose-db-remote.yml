@@ -7,6 +7,7 @@ services:
       dockerfile: src/TrakIt.DatabaseReady/src/Dockerfile
     environment:
       DELETE_DATABASE: ${DELETE_DATABASE}
+      MAP_SEED_JSON: ${MAP_SEED_JSON}
     extends:
       file: docker-compose-base.yml
       service: base

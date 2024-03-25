@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.10"></a>
+## [9.0.1-alpha.10](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.10) (2024-03-25)
+
+### Bug Fixes
+
+* Configure Map Seed ([#467](https://www.github.com/palletshuttle/Trak-It/issues/467)) ([#475](https://www.github.com/palletshuttle/Trak-It/issues/475)) ([52cc690](https://www.github.com/palletshuttle/Trak-It/commit/52cc690a4f670321d55ea758e47b8cf1ef649552))
+
+### Other
+
+* Merge branch 'publish-docker' of github.com:palletshuttle/Trak-It into publish-docker ([b26698b](https://www.github.com/palletshuttle/Trak-It/commit/b26698b1da0f4276e9d2e9274048a09ea3863627))
+* Merge remote-tracking branch 'origin/development' into publish-docker ([42f7331](https://www.github.com/palletshuttle/Trak-It/commit/42f733113a466fde3fca06bb45031c946ace771c))
+
 <a name="9.0.1-alpha.9"></a>
 ## [9.0.1-alpha.9](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.9) (2024-03-25)
 
