@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.14"></a>
+## [9.0.1-alpha.14](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.14) (2024-03-28)
+
+### Bug Fixes
+
+* unity map render optimize ([#480](https://www.github.com/palletshuttle/Trak-It/issues/480)) ([44bb971](https://www.github.com/palletshuttle/Trak-It/commit/44bb971088b54d636d8becd9bb22c62b4a443797))
+
 <a name="9.0.1-alpha.13"></a>
 ## [9.0.1-alpha.13](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.13) (2024-03-25)
 
