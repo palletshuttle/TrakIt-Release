@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.15"></a>
+## [9.0.1-alpha.15](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.15) (2024-03-28)
+
+### Bug Fixes
+
+* Shuttle communication gateway prevent fault on bad encoder value and log property change telemetry ([#481](https://www.github.com/palletshuttle/Trak-It/issues/481)) ([16fe35c](https://www.github.com/palletshuttle/Trak-It/commit/16fe35c57a9d976fdbc99f84caf1abb654a9d5eb))
+
 <a name="9.0.1-alpha.14"></a>
 ## [9.0.1-alpha.14](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.14) (2024-03-28)
 
