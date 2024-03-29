@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.16"></a>
+## [9.0.1-alpha.16](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.16) (2024-03-29)
+
+### Bug Fixes
+
+* Shuttle communications now logs property changes. Logging only occurs when state is modified. Suppressed stdout from dependent library removing log bloat.  ([#482](https://www.github.com/palletshuttle/Trak-It/issues/482)) ([7329d2e](https://www.github.com/palletshuttle/Trak-It/commit/7329d2eca03d007af6a92c6c6781eb00ac4f9fb8))
+
 <a name="9.0.1-alpha.15"></a>
 ## [9.0.1-alpha.15](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.15) (2024-03-28)
 
