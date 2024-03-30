@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.17"></a>
+## [9.0.1-alpha.17](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.17) (2024-03-30)
+
+### Bug Fixes
+
+* Race condition in publication of shuttle idle event resolved ([b471ac9](https://www.github.com/palletshuttle/Trak-It/commit/b471ac9a7e54623aa1dd0a376092ad93e5711cf7))
+
 <a name="9.0.1-alpha.16"></a>
 ## [9.0.1-alpha.16](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.16) (2024-03-29)
 
