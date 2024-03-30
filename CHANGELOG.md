@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.18"></a>
+## [9.0.1-alpha.18](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.18) (2024-03-30)
+
+### Bug Fixes
+
+* UI v2 location model update to address onclick null reference bug ([4aefc07](https://www.github.com/palletshuttle/Trak-It/commit/4aefc07cd913661bbecd12fb88bb8da121f3875f))
+
 <a name="9.0.1-alpha.17"></a>
 ## [9.0.1-alpha.17](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.17) (2024-03-30)
 
