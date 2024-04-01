@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.20"></a>
+## [9.0.1-alpha.20](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.20) (2024-04-01)
+
+### Bug Fixes
+
+* Publish ShuttleCom.Gateway targeting linux ([ea660b8](https://www.github.com/palletshuttle/Trak-It/commit/ea660b881525f95b7e6caf124f68f9289e8ee67c))
+
+<a name="9.0.1-alpha.19"></a>
+## [9.0.1-alpha.19](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.19) (2024-04-01)
+
+### Bug Fixes
+
+* Create simplified installer(s) for TRAK-IT docker images ([#486](https://www.github.com/palletshuttle/Trak-It/issues/486)) ([8092998](https://www.github.com/palletshuttle/Trak-It/commit/80929986bcc3476ef60a85bdb73bfdf85ed506dd))
+* Smooth camera selection and add support for URP renderer in user interface.  ([#483](https://www.github.com/palletshuttle/Trak-It/issues/483)) ([5a14f42](https://www.github.com/palletshuttle/Trak-It/commit/5a14f422073374cf320c889856d16a601ffd4c71))
+
 <a name="9.0.1-alpha.18"></a>
 ## [9.0.1-alpha.18](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.18) (2024-03-30)
 
