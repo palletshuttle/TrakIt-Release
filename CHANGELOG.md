@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.21"></a>
+## [9.0.1-alpha.21](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.21) (2024-04-08)
+
+### Bug Fixes
+
+* Add UI test DLL and scene object loader base class ([c4b39e7](https://www.github.com/palletshuttle/Trak-It/commit/c4b39e74c2688fc1e9c2aefd8cbb24c283cc56e1))
+* AI uses weights to assign empty lanes for pallet storage ([#497](https://www.github.com/palletshuttle/Trak-It/issues/497)) ([b6a8d48](https://www.github.com/palletshuttle/Trak-It/commit/b6a8d4823a76ed11776c2589842458bd80df1247))
+* Shader fix ([#491](https://www.github.com/palletshuttle/Trak-It/issues/491)) ([0cb63c5](https://www.github.com/palletshuttle/Trak-It/commit/0cb63c502f5f8086add7dccb399692b3cea237cb))
+* System Health Screen Interface & Misc UI Updates ([#487](https://www.github.com/palletshuttle/Trak-It/issues/487)) ([64eb97e](https://www.github.com/palletshuttle/Trak-It/commit/64eb97e8b9221c2c48ace6f7ffbb8cfc8de4aa72))
+* System map lighting changed to environment for better visibility. Disabled directional lighting. ([d0b3161](https://www.github.com/palletshuttle/Trak-It/commit/d0b31614b04c100342e04ef00761ccfa769b660f))
+* Updated shuttle movement to use new event and enabled location locking ([#493](https://www.github.com/palletshuttle/Trak-It/issues/493)) ([cb24565](https://www.github.com/palletshuttle/Trak-It/commit/cb24565555e75cf64c08bcfc59f80b50b3fd3f8e))
+* updated system health screen to load shuttle information ([#492](https://www.github.com/palletshuttle/Trak-It/issues/492)) ([794f8b3](https://www.github.com/palletshuttle/Trak-It/commit/794f8b39d7085be97c607f1bd65c97d63865687f))
+
+### Other
+
+* Minor fix to idle publish in simulation ([e02d21e](https://www.github.com/palletshuttle/Trak-It/commit/e02d21eb6b7b6fcbf4b1db79093a118f5f533b89))
+* Updated ASCII map script to output to new format used by AI ([82315b5](https://www.github.com/palletshuttle/Trak-It/commit/82315b573c306874be5deaeefff3c74587bdd71e))
+* V-shuttle adds domain event for move and idle ([59d156d](https://www.github.com/palletshuttle/Trak-It/commit/59d156db21c5a6b7d05813ea81117afc2f7fea77))
+
 <a name="9.0.1-alpha.20"></a>
 ## [9.0.1-alpha.20](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.20) (2024-04-01)
 
