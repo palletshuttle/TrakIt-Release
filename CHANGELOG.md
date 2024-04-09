@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.0"></a>
+## [9.1.0-alpha.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.0) (2024-04-09)
+
+### Features
+
+* Web API has new shuttle endpoint for setting shuttle function (Pause, Resume, Cancel, etc.) for technician control of shuttles ([#502](https://www.github.com/palletshuttle/Trak-It/issues/502)) ([52b1c11](https://www.github.com/palletshuttle/Trak-It/commit/52b1c11e77e15292866ca2703521f48259d04cee))
+
 <a name="9.0.1-alpha.22"></a>
 ## [9.0.1-alpha.22](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.22) (2024-04-09)
 
