@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.0.1-alpha.22"></a>
+## [9.0.1-alpha.22](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.22) (2024-04-09)
+
+### Bug Fixes
+
+* Event dispatch race condition on shuttle movement resolved. ([461bf4a](https://www.github.com/palletshuttle/Trak-It/commit/461bf4a1aad62b78dd6bf5efe7dcdedd8d6015ed))
+
 <a name="9.0.1-alpha.21"></a>
 ## [9.0.1-alpha.21](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.0.1-alpha.21) (2024-04-08)
 
