@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.1"></a>
+## [9.1.0-alpha.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.1) (2024-04-11)
+
+### Features
+
+* Add command repository access to OData endpoint ([#508](https://www.github.com/palletshuttle/Trak-It/issues/508)) ([719fa4a](https://www.github.com/palletshuttle/Trak-It/commit/719fa4a022490f4113d38ab4866825e5461563ad))
+* Shuttle function button callbacks for control UI have been wired to send SetShuttleFunctionRequest calls to API ([#507](https://www.github.com/palletshuttle/Trak-It/issues/507)) ([2bb077f](https://www.github.com/palletshuttle/Trak-It/commit/2bb077fee9876bbc4e0795525b2795e8fdfccaa0))
+
+### Bug Fixes
+
+* fixed issue preventing pallet list from populating on load ([#506](https://www.github.com/palletshuttle/Trak-It/issues/506)) ([05074d0](https://www.github.com/palletshuttle/Trak-It/commit/05074d0bda2d357cdd4b4570e4af2c06cfe81532))
+
+### Other
+
+* Minor test fix to match updated command naming schema ([5eaf9ca](https://www.github.com/palletshuttle/Trak-It/commit/5eaf9ca21a8c8e83a6ded5197d29c523e33103ff))
+
 <a name="9.1.0-alpha.0"></a>
 ## [9.1.0-alpha.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.0) (2024-04-09)
 
