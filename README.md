@@ -21,35 +21,33 @@
 1. Create a file called `config` and enter your Docker configuration.
 
    ```
-   --file
-   docker-compose-app.yml
-   --file
-   docker-compose-db-{local/remote}.yml
-   --file
-   docker-compose-rabbitmq-{local/remote}.yml
-   --profile
-   physical
+   --file docker-compose.yml
+   --file docker-compose.sql.yml
+   --file docker-compose.rabbitmq.yml
+   --profile physical
    ```
 
    **Notes:**
 
-   - For `docker-compose-db` and `docker-compose-rabbitmq`, decide whether you are hosting SQL / RabbitMQ in Docker (`local`) or in a separately maintained server (`remote`).
+   - If you are hosting SQL Server outside of Docker, exclude the `--file docker-compose.sql.yml` argument.
 
-   - To test TrakIt, set the `--profile` to `virtual`.
+   - If you are hosting RabbitMQ outside of Docker, exclude the `--file docker-compose.rabbitmq.yml` argument.
+
+   - To test TrakIt, set `--profile` to `virtual`.
 
    - If you are running the `shuttle-comms-service` in a separate server, remove the `--profile` setting entirely.
 
 1. Create a file called [`.env`](https://docs.docker.com/compose/environment-variables/set-environment-variables/#substitute-with-an-env-file) and provide all necessary configuration values.
 
-| Variable                             | Description                                                                                         |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------- |
-| `TAG`                                | The container tag to use when running TrakIt. For now, use `alpha`.                                 |
-| `MAP_SEED_JSON`                      | Name of the JSON file to use when seeding the database.                                             |
-| `DatabaseOptions__ConnectionString`  | Connection string to the TrakIt database. Only used for `docker-compose-db-remote.yml`              |
-| `IdentityDatabase__ConnectionString` | Connection string to the Identity database. Only used for `docker-compose-db-remote.yml`            |
-| `RabbitMq__HostName`                 | Address of the RabbitMQ server. Only used for `docker-compose-rabbitmq-remote.yml`                  |
-| `RabbitMq__UserName`                 | Username to authenticate to the RabbitMQ server. Only used for `docker-compose-rabbitmq-remote.yml` |
-| `RabbitMq__Password`                 | Password to authenticate to the RabbitMQ server. Only used for `docker-compose-rabbitmq-remote.yml` |
+| Variable                             | Description                                                                                                  |
+| ------------------------------------ |--------------------------------------------------------------------------------------------------------------|
+| `TAG`                                | The container tag to use when running TrakIt. For now, use `alpha`.                                          |
+| `MAP_SEED_JSON`                      | Name of the JSON file to use when seeding the database.                                                      |
+| `DatabaseOptions__ConnectionString`  | Connection string to the TrakIt database. Only used for `docker-compose-db-remote.yml`                       |
+| `IdentityDatabase__ConnectionString` | Connection string to the Identity database. Only used for `docker-compose-db-remote.yml`                     |
+| `RabbitMq__HostName`                 | Address of the RabbitMQ server. Only used if excluding `docker-compose.rabbitmq.yml`                         |
+| `RabbitMq__UserName`                 | Username to authenticate to the RabbitMQ server. Only used if excluding `docker-compose.rabbitmq.yml`        |
+| `RabbitMq__Password`                 | Password to authenticate to the RabbitMQ server. Only used if excluding `docker-compose.rabbitmq.yml` |
 
 ## Running TrakIt
 

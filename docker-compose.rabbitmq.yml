@@ -1,0 +1,51 @@
+version: "3.8"
+
+services:
+  rabbitmq:
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: Pass@word
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 5s
+      timeout: 30s
+      retries: 18
+      start_period: 30s
+    image: rabbitmq:3-management
+    labels:
+      com.jetbrains.rider.debug: "false"
+    networks: [backend]
+    ports: ["15672:15672", "5672:5672"]
+    
+  ai-service:
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        
+  event-hub:
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        
+  shuttle-comms-service:
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+  ui:
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        
+  virtual-shuttle-service:
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        
+  web-api:
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+
+networks:
+  backend:
+    driver: bridge

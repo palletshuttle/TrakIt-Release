@@ -5,8 +5,8 @@ param(
     [Parameter(Mandatory=$true)]
     [string]$pat,
 
-    [string]$dbEnvironment = "local",
-    [string]$rabbitmqEnvironment = "local",
+    [bool]$hostSqlServer = $true,
+    [bool]$hostRabbitmq = $true,
     [string]$profile = $null,
     [string]$tag = "alpha", 
     [string]$mapSeedJson = $null,
@@ -21,12 +21,12 @@ function Show-Help {
     Write-Host "This script is used to set up and deploy services using Docker. Parameters include:"
     Write-Host "`t-username: Your Docker registry username. (Required)"
     Write-Host "`t-pat: Your Docker registry Personal Access Token. (Required)"
-    Write-Host "`t-dbEnvironment: The environment for the database. Default is 'local'."
-    Write-Host "`t-rabbitmqEnvironment: The environment for RabbitMQ. Default is 'local'."
+    Write-Host "`t-hostSqlServer: Host The SQL Database in Docker. Default is 'true'."
+    Write-Host "`t-hostRabbitmq: Host RabbitMQ in Docker. Default is 'true'."
     Write-Host "`t-profile: The Docker compose profile to use."
     Write-Host "`t-tag: The tag for Docker images. Default is 'alpha'."
     Write-Host "Other parameters include options for map seed JSON, database connection strings, and RabbitMQ settings."
-    Write-Host "For example: .\scriptname.ps1 -username 'myUsername' -pat 'myPAT'"
+    Write-Host "For example: .\installTrakIt.ps1 -username 'myUsername' -pat 'myPAT'"
     exit
 }
 
@@ -42,11 +42,13 @@ $dir = Split-Path -Parent $MyInvocation.MyCommand.Definition
 echo $pat | docker login ghcr.io -u $username --password-stdin
 
 # Define docker compose file arguments based on parameters
-$dockerComposeFilesArgs = @(
-    "--file docker-compose-app.yml",
-    "--file docker-compose-db-$dbEnvironment.yml",
-    "--file docker-compose-rabbitmq-$rabbitmqEnvironment.yml"
-) -join ' '
+$dockerComposeFilesArgs = "--file docker-compose.yml";
+if ($hostSqlServer) {
+    $dockerComposeFilesArgs += " --file docker-compose.sql.yml";
+}
+if ($hostRabbitmq) {
+    $dockerComposeFilesArgs += " --file docker-compose.rabbitmq.yml";
+}
 
 # Include the --profile argument only if a profile is specified
 $profileArgument = if ($profile) { "--profile $profile" } else { "" }

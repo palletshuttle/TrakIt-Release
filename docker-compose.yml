@@ -6,25 +6,33 @@ services:
       context: .
       dockerfile: src/TrakIt/TrakIt.AI.Service/Dockerfile
     depends_on:
-      rabbitmq:
-        condition: service_healthy
       db-ready:
         condition: service_completed_successfully
     extends:
-      file: docker-compose-base.yml
+      file: docker-compose.base.yml
       service: base
     image: ghcr.io/palletshuttle/ai-service:${TAG:-latest}
+    networks: [backend]
+
+  db-ready:
+    build:
+      context: .
+      dockerfile: src/TrakIt.DatabaseReady/src/Dockerfile
+    environment:
+      DELETE_DATABASE: ${DELETE_DATABASE:-}
+      MAP_SEED_JSON: ${MAP_SEED_JSON:-}
+    image: ghcr.io/palletshuttle/db-ready:${TAG:-latest}
+    extends:
+      file: docker-compose.base.yml
+      service: base
     networks: [backend]
 
   event-hub:
     build:
       context: .
       dockerfile: src/TrakIt.EventHub/src/Dockerfile
-    depends_on:
-      rabbitmq:
-        condition: service_healthy
     extends:
-      file: docker-compose-base.yml
+      file: docker-compose.base.yml
       service: base
     image: ghcr.io/palletshuttle/event-hub:${TAG:-latest}
     networks: [backend]
@@ -35,12 +43,10 @@ services:
       context: .
       dockerfile: src/TrakIt.ShuttleComm.Gateway/src/Dockerfile
     depends_on:
-      rabbitmq:
-        condition: service_healthy
       db-ready:
         condition: service_completed_successfully
     extends:
-      file: docker-compose-base.yml
+      file: docker-compose.base.yml
       service: base
     image: ghcr.io/palletshuttle/shuttle-comms-service:${TAG:-latest}
     networks: [backend]
@@ -51,12 +57,10 @@ services:
       context: .
       dockerfile: src/TrakIt.UI/src/Dockerfile
     depends_on:
-      rabbitmq:
-        condition: service_healthy
       db-ready:
         condition: service_completed_successfully
     extends:
-      file: docker-compose-base.yml
+      file: docker-compose.base.yml
       service: base
     image: ghcr.io/palletshuttle/ui:${TAG:-latest}
     networks: [backend]
@@ -67,12 +71,10 @@ services:
       context: .
       dockerfile: src/VirtualShuttleService/VirtualShuttleService/Dockerfile
     depends_on:
-      rabbitmq:
-        condition: service_healthy
       db-ready:
         condition: service_completed_successfully
     extends:
-      file: docker-compose-base.yml
+      file: docker-compose.base.yml
       service: base
     image: ghcr.io/palletshuttle/virtual-shuttle-service:${TAG:-latest}
     networks: [backend]
@@ -83,12 +85,10 @@ services:
       context: .
       dockerfile: src/TrakIt.WebApi/src/Dockerfile
     depends_on:
-      rabbitmq:
-        condition: service_healthy
       db-ready:
         condition: service_completed_successfully
     extends:
-      file: docker-compose-base.yml
+      file: docker-compose.base.yml
       service: base
     image: ghcr.io/palletshuttle/web-api:${TAG:-latest}
     networks: [backend]

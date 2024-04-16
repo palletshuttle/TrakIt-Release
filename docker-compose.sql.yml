@@ -23,20 +23,9 @@ services:
       start_period: 10s
 
   db-ready:
-    build:
-      context: .
-      dockerfile: src/TrakIt.DatabaseReady/src/Dockerfile
     depends_on:
       sql:
         condition: service_healthy
-    environment:
-      DELETE_DATABASE: ${DELETE_DATABASE:-}
-      MAP_SEED_JSON: ${MAP_SEED_JSON:-}
-    image: ghcr.io/palletshuttle/db-ready:${TAG:-latest}
-    extends:
-      file: docker-compose-base.yml
-      service: base
-    networks: [backend]
 
 networks:
   backend:

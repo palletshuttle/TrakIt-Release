@@ -2,6 +2,42 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.5"></a>
+## [9.1.0-alpha.5](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.5) (2024-04-16)
+
+### Bug Fixes
+
+* fix release to include latest docker-compose ([f83be6f](https://www.github.com/palletshuttle/Trak-It/commit/f83be6fc3aa02b6d65982496dfbe92c1870fe65e))
+
+### Other
+
+* Merge branch 'development' of https://github.com/palletshuttle/Trak-It into development ([833e228](https://www.github.com/palletshuttle/Trak-It/commit/833e2283ea92e2a0ec9429437702638de5ffd652))
+
+<a name="9.1.0-alpha.4"></a>
+## [9.1.0-alpha.4](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.4) (2024-04-16)
+
+### Bug Fixes
+
+* fix Docker release pipeline arguments ([b061699](https://www.github.com/palletshuttle/Trak-It/commit/b061699b87faa140cda4033f92900bce06cac540))
+
+<a name="9.1.0-alpha.3"></a>
+## [9.1.0-alpha.3](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.3) (2024-04-16)
+
+### Features
+
+* Optimize graph node representation ([#517](https://www.github.com/palletshuttle/Trak-It/issues/517)) ([32c3eb9](https://www.github.com/palletshuttle/Trak-It/commit/32c3eb9833a8343ea84c2b642d1017b1ea57d9b8))
+
+<a name="9.1.0-alpha.2"></a>
+## [9.1.0-alpha.2](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.2) (2024-04-16)
+
+### Bug Fixes
+
+* Windows docker release ([#543](https://www.github.com/palletshuttle/Trak-It/issues/543)) ([58ad959](https://www.github.com/palletshuttle/Trak-It/commit/58ad959a315f5e5ec749f9bfc48cf848bcd1aabb))
+
+### Other
+
+* Sparse graph implementation (#490) ([0337cd5](https://www.github.com/palletshuttle/Trak-It/commit/0337cd5ad39a5c91421553b9a6d91691f8bc2db0))
+
 <a name="9.1.0-alpha.1"></a>
 ## [9.1.0-alpha.1](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.1) (2024-04-11)
 
