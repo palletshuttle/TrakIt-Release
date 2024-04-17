@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.6"></a>
+## [9.1.0-alpha.6](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.6) (2024-04-17)
+
+### Bug Fixes
+
+* push docker images with docker-bake.hcl ([503db2f](https://www.github.com/palletshuttle/Trak-It/commit/503db2f909348d173a786bf7eda4480a73d8b3af))
+
 <a name="9.1.0-alpha.5"></a>
 ## [9.1.0-alpha.5](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.5) (2024-04-16)
 
