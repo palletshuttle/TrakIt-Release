@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.7"></a>
+## [9.1.0-alpha.7](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.7) (2024-04-23)
+
+### Features
+
+* Enable sparse graph pathing with simplified node structure for memory and processing speed improvements in pathing ([#477](https://www.github.com/palletshuttle/Trak-It/issues/477)) ([e852331](https://www.github.com/palletshuttle/Trak-It/commit/e852331f9d2a54f6b213a096c9a9aaaa4dd9986e))
+* Single Scene UI  ([#545](https://www.github.com/palletshuttle/Trak-It/issues/545)) ([6f97be6](https://www.github.com/palletshuttle/Trak-It/commit/6f97be6f6a748f82b79016a23a502bcb0f10d9f8))
+
 <a name="9.1.0-alpha.6"></a>
 ## [9.1.0-alpha.6](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.6) (2024-04-17)
 
