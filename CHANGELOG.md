@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.8"></a>
+## [9.1.0-alpha.8](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.8) (2024-04-23)
+
+### Features
+
+* Cache Graph to Memory ([#541](https://www.github.com/palletshuttle/Trak-It/issues/541)) ([e894896](https://www.github.com/palletshuttle/Trak-It/commit/e894896c67c1a79be1a174c394248225af36b8eb))
+
 <a name="9.1.0-alpha.7"></a>
 ## [9.1.0-alpha.7](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.7) (2024-04-23)
 
