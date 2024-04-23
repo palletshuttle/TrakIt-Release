@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.9"></a>
+## [9.1.0-alpha.9](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.9) (2024-04-23)
+
+### Bug Fixes
+
+* Block full storage lane when segment has been planned using sparse graph implementation ([#555](https://www.github.com/palletshuttle/Trak-It/issues/555)) ([076d533](https://www.github.com/palletshuttle/Trak-It/commit/076d5335141efa0f2a93cc3e7e9641c996fbb0a3))
+
 <a name="9.1.0-alpha.8"></a>
 ## [9.1.0-alpha.8](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.8) (2024-04-23)
 
