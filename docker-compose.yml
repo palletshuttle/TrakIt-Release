@@ -52,6 +52,23 @@ services:
     networks: [backend]
     profiles: [physical]
 
+  user-interface:
+    build:
+      context: .
+      dockerfile: src/TrakIt.UserInterface/Dockerfile
+      secrets:
+        - UNITY_USERNAME
+        - UNITY_PASSWORD
+        - UNITY_LICENSE
+    depends_on:
+      event-hub:
+        condition: service_started
+      web-api:
+        condition: service_started
+    image: ghcr.io/palletshuttle/user-interface:${TAG:-latest}
+    networks: [backend]
+    ports: ["7777:42401"]
+
   ui:
     build:
       context: .
@@ -98,3 +115,11 @@ networks:
   backend:
     driver: bridge
 # TODO: VTU Service
+
+secrets:
+  UNITY_USERNAME:
+    environment: "UNITY_USERNAME"
+  UNITY_PASSWORD:
+    environment: "UNITY_PASSWORD"
+  UNITY_LICENSE:
+    environment: "UNITY_LICENSE"

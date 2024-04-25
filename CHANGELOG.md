@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.10"></a>
+## [9.1.0-alpha.10](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.10) (2024-04-25)
+
+### Bug Fixes
+
+* User Interface Unity Dedicated Server Docker Images ([#558](https://www.github.com/palletshuttle/Trak-It/issues/558)) ([ff78d3b](https://www.github.com/palletshuttle/Trak-It/commit/ff78d3b072edd3afc92bb64a669f8a9ae7b3270d))
+
+### Other
+
+* Add core logic for constraint and conflict tracking ([#557](https://www.github.com/palletshuttle/Trak-It/issues/557)) ([eb941d6](https://www.github.com/palletshuttle/Trak-It/commit/eb941d65de46ac3965281acea94363375e61d6ab))
+* Add shuttle plate number property to track physical shuttle plate number in system to avoid issue with identification and data correlation ([7a99827](https://www.github.com/palletshuttle/Trak-It/commit/7a998271648c10acf34dbad98d0da8c445b0ead1))
+
 <a name="9.1.0-alpha.9"></a>
 ## [9.1.0-alpha.9](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.9) (2024-04-23)
 
