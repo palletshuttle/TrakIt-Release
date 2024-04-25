@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.13"></a>
+## [9.1.0-alpha.13](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.13) (2024-04-25)
+
+### Bug Fixes
+
+* run docker release on larger ubuntu runner ([1013f49](https://www.github.com/palletshuttle/Trak-It/commit/1013f49d7ff8c1c8f77aa75a6aadd9a85df94041))
+
+<a name="9.1.0-alpha.12"></a>
+## [9.1.0-alpha.12](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.12) (2024-04-25)
+
+### Bug Fixes
+
+* include default appsettings for docker deployments ([621012b](https://www.github.com/palletshuttle/Trak-It/commit/621012b7eb7ac8db0cedc2616ac5dd75a564c2be))
+
+<a name="9.1.0-alpha.11"></a>
+## [9.1.0-alpha.11](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.11) (2024-04-25)
+
+### Bug Fixes
+
+* register unity dedicated server to build in docker ([62b78b8](https://www.github.com/palletshuttle/Trak-It/commit/62b78b8ae72a83bec4ec79232c3b51c934fb56ef))
+
 <a name="9.1.0-alpha.10"></a>
 ## [9.1.0-alpha.10](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.10) (2024-04-25)
 

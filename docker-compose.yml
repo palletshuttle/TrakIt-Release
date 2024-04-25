@@ -67,7 +67,7 @@ services:
         condition: service_started
     image: ghcr.io/palletshuttle/user-interface:${TAG:-latest}
     networks: [backend]
-    ports: ["7777:42401"]
+    ports: ["7777:7777/udp"]
 
   ui:
     build:
