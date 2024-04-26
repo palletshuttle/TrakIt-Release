@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.16"></a>
+## [9.1.0-alpha.16](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.16) (2024-04-26)
+
+### Bug Fixes
+
+* remove obsolete release pipeline steps ([8522b91](https://www.github.com/palletshuttle/Trak-It/commit/8522b91232f8d321b8ef76d5ac6b59420153a8ff))
+
+<a name="9.1.0-alpha.15"></a>
+## [9.1.0-alpha.15](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.15) (2024-04-26)
+
+### Bug Fixes
+
+* publish windows and mac UI in separate steps ([526356f](https://www.github.com/palletshuttle/Trak-It/commit/526356f2367522698b1b947fe0c55b413a139f73))
+
+<a name="9.1.0-alpha.14"></a>
+## [9.1.0-alpha.14](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.14) (2024-04-26)
+
+### Bug Fixes
+
+* Publish User Interface ([#560](https://www.github.com/palletshuttle/Trak-It/issues/560)) ([e7b92fd](https://www.github.com/palletshuttle/Trak-It/commit/e7b92fd445be8ea2fc14c5729d9106c23bd02f0f))
+
 <a name="9.1.0-alpha.13"></a>
 ## [9.1.0-alpha.13](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.13) (2024-04-25)
 
