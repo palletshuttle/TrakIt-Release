@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.18"></a>
+## [9.1.0-alpha.18](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.18) (2024-04-27)
+
+### Bug Fixes
+
+* Fix issue with file path on MacOS resulting in appsettings failing to be found and added more log details ([dcb902f](https://www.github.com/palletshuttle/Trak-It/commit/dcb902fa38fc0ea6d9a361b11bf48d78009f3c3b))
+
 <a name="9.1.0-alpha.17"></a>
 ## [9.1.0-alpha.17](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.17) (2024-04-26)
 
