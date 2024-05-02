@@ -2,6 +2,94 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.29"></a>
+## [9.1.0-alpha.29](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.29) (2024-05-02)
+
+### Bug Fixes
+
+* Remove UI Linux server build from automation while OEM researches solution to image issue. ([#568](https://www.github.com/palletshuttle/Trak-It/issues/568)) ([9abba1f](https://www.github.com/palletshuttle/Trak-It/commit/9abba1f47a10bdc3bc84492fd6c6cbf4fe95ddf3))
+
+<a name="9.1.0-alpha.28"></a>
+## [9.1.0-alpha.28](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.28) (2024-05-02)
+
+### Bug Fixes
+
+* Regression in shuttle simulator causing pallet to not be picked up by shuttle as expected has been resolved. ([72bfffa](https://www.github.com/palletshuttle/Trak-It/commit/72bfffa8e294056e7a921feedd6feb923a5ee717))
+
+<a name="9.1.0-alpha.27"></a>
+## [9.1.0-alpha.27](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.27) (2024-05-02)
+
+### Bug Fixes
+
+* Remove local linux server build profile to avoid conflict in CI/CD ([1fe0a04](https://www.github.com/palletshuttle/Trak-It/commit/1fe0a04ee700e001420b1530e8e3913f5ba6e911))
+
+<a name="9.1.0-alpha.26"></a>
+## [9.1.0-alpha.26](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.26) (2024-05-02)
+
+### Bug Fixes
+
+* Change UI build for Windows to use mono ([695bac3](https://www.github.com/palletshuttle/Trak-It/commit/695bac32698cc69e0c6ad32113b704a6df83b21d))
+
+<a name="9.1.0-alpha.25"></a>
+## [9.1.0-alpha.25](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.25) (2024-05-02)
+
+### Bug Fixes
+
+* Fix UI build target image to match correct editor version ([08c7c35](https://www.github.com/palletshuttle/Trak-It/commit/08c7c350e9b9220d9e969cdd917d83200df630da))
+
+### Other
+
+* Minor config update ([9961fb6](https://www.github.com/palletshuttle/Trak-It/commit/9961fb6f8a962e1baf3236654b0f9c6c36c69710))
+
+<a name="9.1.0-alpha.24"></a>
+## [9.1.0-alpha.24](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.24) (2024-05-02)
+
+### Bug Fixes
+
+* Update UI build dependencies ([e311464](https://www.github.com/palletshuttle/Trak-It/commit/e311464fad08c614d4fa48f373bd7422d2311a77))
+
+<a name="9.1.0-alpha.23"></a>
+## [9.1.0-alpha.23](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.23) (2024-05-02)
+
+### Bug Fixes
+
+* Typo in README ([72079a2](https://www.github.com/palletshuttle/Trak-It/commit/72079a2fb6e593b75a50f8788dddfebab861d7c8))
+
+<a name="9.1.0-alpha.22"></a>
+## [9.1.0-alpha.22](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.22) (2024-05-02)
+
+### Bug Fixes
+
+* Minor release notes update ([f132148](https://www.github.com/palletshuttle/Trak-It/commit/f132148f87768df8082eb77bbf9bfe4ea0cbaf27))
+* Minor release README update ([093ba7a](https://www.github.com/palletshuttle/Trak-It/commit/093ba7aaa5596f54da378ecc508fa2277f21435d))
+* Release docs table format correction ([ae2aa40](https://www.github.com/palletshuttle/Trak-It/commit/ae2aa40b1a9e8f9112a1a4d05645067cc1ab9c21))
+* Update install script for Linux based systems and Update documentation for Ubuntu based installs. ([a4d2ad5](https://www.github.com/palletshuttle/Trak-It/commit/a4d2ad5ac1575bee928f1d3933816b242254843b))
+
+<a name="9.1.0-alpha.21"></a>
+## [9.1.0-alpha.21](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.21) (2024-05-01)
+
+### Features
+
+* Shuttle simulator now simulates technician commands allowing the shuttle to be moved manually with shuttle commands from UI ([d24dc59](https://www.github.com/palletshuttle/Trak-It/commit/d24dc5922368fdb8e6ea96ecdfb5e1f02c98a2cf))
+
+<a name="9.1.0-alpha.20"></a>
+## [9.1.0-alpha.20](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.20) (2024-05-01)
+
+### Features
+
+* Added High Fidelity UI Styles to System Map, Nav Menu, Sidebar Component ([#566](https://www.github.com/palletshuttle/Trak-It/issues/566)) ([83ad33f](https://www.github.com/palletshuttle/Trak-It/commit/83ad33f9798139cfca04c3894c34105d6d0ccb9c))
+
+### Other
+
+* Add ability to seed any number of shuttles in spur locations for a live database tests with an override for in-memory testing ([d097846](https://www.github.com/palletshuttle/Trak-It/commit/d097846aa642eb5fa4549434412f224a44ec5144))
+
+<a name="9.1.0-alpha.19"></a>
+## [9.1.0-alpha.19](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.19) (2024-05-01)
+
+### Features
+
+* Add logic to send shuttle commands from system health screen. ([#564](https://www.github.com/palletshuttle/Trak-It/issues/564)) ([5618053](https://www.github.com/palletshuttle/Trak-It/commit/5618053fbdedf01cb24c1da3edabf0da659852d1))
+
 <a name="9.1.0-alpha.18"></a>
 ## [9.1.0-alpha.18](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.18) (2024-04-27)
 
