@@ -2,6 +2,48 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.35"></a>
+## [9.1.0-alpha.35](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.35) (2024-05-07)
+
+### Bug Fixes
+
+* Parameterize unityci docker version number and update to latest with fixes ([04e00d7](https://www.github.com/palletshuttle/Trak-It/commit/04e00d7c8566237cbf0cb04c23ffd0e507eeaa8b))
+
+<a name="9.1.0-alpha.34"></a>
+## [9.1.0-alpha.34](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.34) (2024-05-07)
+
+### Bug Fixes
+
+* Remove deployment workaround for unityci fix to support Unity's version scheme change for 2024 see: https://github.com/game-ci/docker/pull/245 ([6a93b90](https://www.github.com/palletshuttle/Trak-It/commit/6a93b90359c03e711c9714fa007523dd948d83ca))
+
+<a name="9.1.0-alpha.33"></a>
+## [9.1.0-alpha.33](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.33) (2024-05-06)
+
+### Bug Fixes
+
+* Parameterize UI server build and add logging ([546b2eb](https://www.github.com/palletshuttle/Trak-It/commit/546b2ebcc1b745e4edd0c0caf2a56394ab83c1fd))
+
+<a name="9.1.0-alpha.32"></a>
+## [9.1.0-alpha.32](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.32) (2024-05-06)
+
+### Bug Fixes
+
+* Simplify linux-server build command ([4d9c586](https://www.github.com/palletshuttle/Trak-It/commit/4d9c5865a6b6ae94bd910f9c1ee3a0244c40be06))
+
+<a name="9.1.0-alpha.31"></a>
+## [9.1.0-alpha.31](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.31) (2024-05-06)
+
+### Bug Fixes
+
+* Add hub to docker and install needed Linux modules for UI publish ([7a8db93](https://www.github.com/palletshuttle/Trak-It/commit/7a8db939b39fdbb75e9a2174d00eb343d1805ffa))
+
+<a name="9.1.0-alpha.30"></a>
+## [9.1.0-alpha.30](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.30) (2024-05-03)
+
+### Bug Fixes
+
+* Add new GH Actions large runner for user-interface builds ([#569](https://www.github.com/palletshuttle/Trak-It/issues/569)) ([4229b0a](https://www.github.com/palletshuttle/Trak-It/commit/4229b0ad273a8a1095322731bb20d114adf9c851))
+
 <a name="9.1.0-alpha.29"></a>
 ## [9.1.0-alpha.29](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.29) (2024-05-02)
 

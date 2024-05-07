@@ -52,22 +52,22 @@ services:
     networks: [backend]
     profiles: [physical]
 
-  # user-interface:
-  #   build:
-  #     context: .
-  #     dockerfile: src/TrakIt.UserInterface/Dockerfile
-  #     secrets:
-  #       - UNITY_USERNAME
-  #       - UNITY_PASSWORD
-  #       - UNITY_LICENSE
-  #   depends_on:
-  #     event-hub:
-  #       condition: service_started
-  #     web-api:
-  #       condition: service_started
-  #   image: ghcr.io/palletshuttle/user-interface:${TAG:-latest}
-  #   networks: [backend]
-  #   ports: ["7777:7777/udp"]
+  user-interface:
+    build:
+      context: .
+      dockerfile: src/TrakIt.UserInterface/Dockerfile
+      secrets:
+        - UNITY_USERNAME
+        - UNITY_PASSWORD
+        - UNITY_LICENSE
+    depends_on:
+      event-hub:
+        condition: service_started
+      web-api:
+        condition: service_started
+    image: ghcr.io/palletshuttle/user-interface:${TAG:-latest}
+    networks: [backend]
+    ports: ["7777:7777/udp"]
 
   ui:
     build:
