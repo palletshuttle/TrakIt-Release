@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.37"></a>
+## [9.1.0-alpha.37](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.37) (2024-05-09)
+
+### Bug Fixes
+
+* Add error logging on API exception from UI ([129e243](https://www.github.com/palletshuttle/Trak-It/commit/129e24301e1fa6870fa36b017b172183f2bf41f7))
+
 <a name="9.1.0-alpha.36"></a>
 ## [9.1.0-alpha.36](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.36) (2024-05-07)
 
