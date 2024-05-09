@@ -2,7 +2,7 @@
 
 ### **Installation Guide for TRAK-IT on Ubuntu with Docker**
 
-When installing on Linux the only file needed is the `installTrakit-Linux.sh` file. Running this command will download the necessary Docker files from this repository and pull images from the GitHub Container Repository. You must have a PAT to access docker images, otherwise, the intall will fail.
+When installing on Linux the only file needed is the `installTrakit-Linux.sh` file. Running this command will download the necessary Docker files from this repository and pull images from the GitHub Container Repository. You must have a PAT to access docker images, otherwise, the install will fail.
 
 #### **Note:**
 - Azure VM must be set to *Standard* NOT Trusted Launch Security Configuration for enhanced security. VM must be running on dv3 or greater VM to support nested virtualization. see: [Nested Virtualization - MSFT Azure Docs](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
