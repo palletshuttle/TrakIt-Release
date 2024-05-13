@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.38"></a>
+## [9.1.0-alpha.38](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.38) (2024-05-13)
+
+### Bug Fixes
+
+* Add support for saga to query state of shuttle if idle for too long ([#554](https://www.github.com/palletshuttle/Trak-It/issues/554)) ([0e209b2](https://www.github.com/palletshuttle/Trak-It/commit/0e209b2e11f27a7323ca76f3966b53d9b14e3e73))
+
+### Other
+
+* Move messaging project to proper location to adhere to architectural pattern ([04ede7b](https://www.github.com/palletshuttle/Trak-It/commit/04ede7b864095f7e26f73d27e064c354093d307c))
+
 <a name="9.1.0-alpha.37"></a>
 ## [9.1.0-alpha.37](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.37) (2024-05-09)
 
