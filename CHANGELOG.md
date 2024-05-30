@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.39"></a>
+## [9.1.0-alpha.39](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.39) (2024-05-30)
+
+### Bug Fixes
+
+* Implement shuttle idle state query in shuttle comms service allowing other services to check idle states ([#573](https://www.github.com/palletshuttle/Trak-It/issues/573)) ([e5eb718](https://www.github.com/palletshuttle/Trak-It/commit/e5eb71863b997a5847efabf6e9ccade9e61269d2))
+
+### Other
+
+* fix csproj properties to prevent issue with dependent project duplicating assembly attributes present in other packages. ([9c01c21](https://www.github.com/palletshuttle/Trak-It/commit/9c01c2133d5846db088a28c3522c559c4670f1b0))
+
 <a name="9.1.0-alpha.38"></a>
 ## [9.1.0-alpha.38](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.38) (2024-05-13)
 
