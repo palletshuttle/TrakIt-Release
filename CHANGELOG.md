@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.42"></a>
+## [9.1.0-alpha.42](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.42) (2024-06-01)
+
+### Features
+
+* Remove user-interface headless server docker build lines from CI files replace with GUI based server ([#591](https://www.github.com/palletshuttle/Trak-It/issues/591)) ([3355050](https://www.github.com/palletshuttle/Trak-It/commit/3355050958b542068d4280f5f16bf3a355a24e7e))
+
+### Other
+
+* Update documentation for HMI interface developer setup and usage ([ae316b9](https://www.github.com/palletshuttle/Trak-It/commit/ae316b92bdb40435d1c968c0a03fa1166dbd6fda))
+
 <a name="9.1.0-alpha.41"></a>
 ## [9.1.0-alpha.41](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.41) (2024-06-01)
 
