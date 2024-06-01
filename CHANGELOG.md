@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.41"></a>
+## [9.1.0-alpha.41](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.41) (2024-06-01)
+
+### Bug Fixes
+
+* Update Web API shuttle command endpoint to correctly check idle status and fault accordingly. ([#589](https://www.github.com/palletshuttle/Trak-It/issues/589)) ([b07c8b0](https://www.github.com/palletshuttle/Trak-It/commit/b07c8b01c9a023f4bf72e933dfb1db0bbe2cdbfd))
+
 <a name="9.1.0-alpha.40"></a>
 ## [9.1.0-alpha.40](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.40) (2024-06-01)
 
