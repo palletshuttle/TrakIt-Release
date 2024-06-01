@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.40"></a>
+## [9.1.0-alpha.40](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.40) (2024-06-01)
+
+### Bug Fixes
+
+* v2 UI navigation restricted to map and control center. ([5e6d9ee](https://www.github.com/palletshuttle/Trak-It/commit/5e6d9ee5a78f17b0e60671d7523f21be3ad162ef))
+
+### Other
+
+* Add swagger grouping tag to shuttle-task endpoint ([#587](https://www.github.com/palletshuttle/Trak-It/issues/587)) ([6a94dc1](https://www.github.com/palletshuttle/Trak-It/commit/6a94dc14dd39e59417a2326a80b0a753dc9f444d))
+* Update readme with current process and details. ([#588](https://www.github.com/palletshuttle/Trak-It/issues/588)) ([eacaf61](https://www.github.com/palletshuttle/Trak-It/commit/eacaf615e71a2b4c7ebad5d1b0f15884935dde0e))
+
 <a name="9.1.0-alpha.39"></a>
 ## [9.1.0-alpha.39](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.39) (2024-05-30)
 
