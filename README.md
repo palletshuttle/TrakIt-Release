@@ -1,13 +1,48 @@
-# TRAK-IT Software Installation Guide
+# TRAK-IT Services
 
-### **Installation Guide for TRAK-IT on Ubuntu with Docker**
+> [!IMPORTANT] 
+> The user interface for TRAK-IT services is intended to be used as an HMI (Human-Machine Interface) and may be used to visualize system activity. It is **NOT** intended to be a full WMS (Warehouse Management System) solution. Please contact your local admin or Pallet Shuttle Automation representative if you are not aware of the integration setup for your deployment.
 
-When installing on Linux the only file needed is the `installTrakit-Linux.sh` file. Running this command will download the necessary Docker files from this repository and pull images from the GitHub Container Repository. You must have a PAT to access docker images, otherwise, the intall will fail.
+> [!TIP] 
+> The TRAK-IT solution is fully extensible through the Web API and Event Hub endpoints. The endpoints are the same we use to build our HMI and integrations with partner companies. 
 
-#### **Note:**
-- Azure VM must be set to *Standard* NOT Trusted Launch Security Configuration for enhanced security. VM must be running on dv3 or greater VM to support nested virtualization. see: [Nested Virtualization - MSFT Azure Docs](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
+# TRAK-IT Services Installation Guide
 
-#### **1. Install XFCE (Optional)**
+> [!IMPORTANT]
+> It is possible to deploy to Windows Servers that support nested virtualization. However, Linux is the recommended deployment route as it is more performant and provides a significantly better logging and troubleshooting experience.
+
+Services have been tested on
+ - Azure Windows VMs versioned with dv3 that support nested virtualization
+ - macOS 14+
+ - Ubuntu 24.04 LTS
+ - Raspberry Pi OS - VTU and Shuttle Communications
+
+> [!TIP]
+> Only the shuttle and VTU communication gateway services are required to be installed on the same subnet as the robotics. All other services may be run remotely. 
+>
+>  - It is recommended to keep the communication gateways close to the physical deployment site for performance reasons.  
+
+## Prerequisites
+
+### Docker
+
+The fastest and easiest method to install Docker on Linux is by installing [Docker Desktop](https://docs.docker.com/desktop/install/linux-install/) if running a UI.
+
+For detailed instructions and alternative installation methods, you can refer to the official Docker documentation: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu). This would be the easiest setup from the command line and more performant on Linux.
+
+**All other requirements are handled by the installation and Docker deployment process.**
+
+## **Installation Guide for TRAK-IT on Ubuntu using Docker**
+
+When installing on Linux the only file needed is the `installTrakit-Linux.sh` file. Running this command will download the necessary Docker files from this repository and pull images from the GitHub Container Repository. 
+
+> [!IMPORTANT] 
+> You must have been provided and API Token from Pallet Shuttle Automation to access docker images, otherwise, the installation will fail.
+
+> [!Note:]
+> Azure VMs must be set to *Standard* NOT Trusted Launch Security Configuration for enhanced security. VM must be running on dv3 or greater VM to support nested virtualization. see: [Nested Virtualization - MSFT Azure Docs](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
+
+### **1. Install XFCE (Optional)**
 XFCE is a lightweight desktop environment that may run faster over RDP compared to GNOME.
 
 ```bash
@@ -20,7 +55,7 @@ echo xfce4-session > ~/.xsession
 sudo service xrdp restart
 ```
 
-#### **2. Install GNOME (Alternative to XFCE, also optional)**
+### **2. Install GNOME (Alternative to XFCE, also optional)**
 If you prefer GNOME, which includes more features and a default browser:
 
 ```bash
@@ -32,11 +67,11 @@ May require a reboot to take effect.
 
 Note that in testing with GUI Gnome is consistently slower over RDP/XRDP.
 
-#### **3. Install Docker on Ubuntu**
+### **3. Install Docker on Ubuntu**
 
 Follow the official Docker documentation to install the Docker Engine: [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu)
 
-Alternately, follow the official Docker documentation to install Docker Desktop: [Install Docker Desktop on Ubuntu](https://docs.docker.com/desktop/install/ubuntu/)
+Alternately, follow the official Docker documentation to install Docker Desktop: [Install Docker Desktop on Ubuntu](https://docs.docker.com/desktop/install/ubuntu/). Docker Desktop is the more simple install process and will include the docker engine.
 
 **Important Steps:**
 - Ensure user access to `/dev/kvm` for hardware acceleration:
@@ -53,7 +88,7 @@ Alternately, follow the official Docker documentation to install Docker Desktop:
 
 Be sure to review official documentation to understand the implication of [managing Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
 
-#### **4. Manage Docker Containers and Images**
+### **4. Manage Docker Containers and Images**
 The following commands can be used to tear down dev/test deployments to allow a fresh installation.
 
 ```bash
@@ -69,11 +104,11 @@ docker rmi $(docker images -q)
 
 Be mindful of existing containers as these commands will remove ALL containers and images!
 
-#### **5. Docker Context Management**
+### **5. Docker Context Management**
 
 On Linux distributions the context may be set via the install script as the script stops and starts the service. Changing the context outside the script may not persist you setting.
 
-**Note**: Docker Desktop and the local Docker engine do not share image stores. Images pulled or built in one context are not available in the other. If you wish to see images in Docker Desktop you must set the correct context when running the install script.
+> [!NOTE] Docker Desktop and the local Docker engine do not share image stores. Images pulled or built in one context are not available in the other. If you wish to see images in Docker Desktop you must set the correct context when running the install script.
 
 ```bash
 docker context list
@@ -118,4 +153,31 @@ The script automates the deployment of TRAK-IT by handling Docker configurations
 #### **Final Notes:**
 - Always ensure you have backups of important data before modifying system configurations.
 - Test the installation steps in a development environment before deploying in production to avoid any disruptions.
-- It is strongly recommended to NOT user Docker Desktop in a production environment.
+- If performance issues are seen when using Docker Desktop it is advisable to switch to using the Docker Engine instead.
+
+## HMI Setup
+
+We provide an HMI setup that may be connected for production or testing use cases. The HMI controls shuttles using the Web API to pass messages to shuttles. Note that the point-and-click logic from the v2 user interface has not been completed in v3 and may not be available depending on your integration setup.
+
+## Independence and Event-Driven Architecture
+
+The HMI setup does not require additional server configuration as all of our services support the ability to work independently from one another and are event-driven.
+
+## Downloads
+
+Please download the correct user interface package for Windows from our [releases page](https://github.com/palletshuttle/TrakIt-Release/releases).
+
+**Example name:** TrakIt.UserInterface_win64_v9.1.0.zip
+
+To connect to your services create an `appsettings.json` file in the same directory extracted user interface. Paste and modify the following contents, replacing localhost with the FQDN or IP of the server hosting the services.
+
+```json
+{
+    "odataEndpoint": "http://localhost:8081/odata",
+    "webApiEndpoint": "http://localhost:8081",
+    "eventHubEndpoint": "http://localhost:8082",
+    "unityServerAddress": "127.0.0.1",
+    "unityServerPort": 7777,
+    "unityServerListenAddress": "0.0.0.0"
+}
+```

@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.43"></a>
+## [9.1.0-alpha.43](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.43) (2024-06-05)
+
+### Bug Fixes
+
+* 593 Shuttle move event is not being received by TRAK-IT UI v3 due to a race condition in domain event logic has been fixed. ([#595](https://www.github.com/palletshuttle/Trak-It/issues/595)) ([363d526](https://www.github.com/palletshuttle/Trak-It/commit/363d5262696f52dc3e4548d2ed3cab3f48301cba))
+
+### Other
+
+* Comprehensive installation documentation update ([#592](https://www.github.com/palletshuttle/Trak-It/issues/592)) ([214c1c3](https://www.github.com/palletshuttle/Trak-It/commit/214c1c36dc7b8ad7ff490d8437586c50b69385b5))
+* Remove macOS client from release packages ([ece8ea6](https://www.github.com/palletshuttle/Trak-It/commit/ece8ea661582b10700bc683754ce3415214fb046))
+
 <a name="9.1.0-alpha.42"></a>
 ## [9.1.0-alpha.42](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.42) (2024-06-01)
 
