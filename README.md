@@ -39,7 +39,7 @@ When installing on Linux the only file needed is the `installTrakit-Linux.sh` fi
 > [!IMPORTANT] 
 > You must have been provided and API Token from Pallet Shuttle Automation to access docker images, otherwise, the installation will fail.
 
-> [!Note:]
+> [!Note]
 > Azure VMs must be set to *Standard* NOT Trusted Launch Security Configuration for enhanced security. VM must be running on dv3 or greater VM to support nested virtualization. see: [Nested Virtualization - MSFT Azure Docs](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/nested-virtualization)
 
 ### **1. Install XFCE (Optional)**
@@ -159,11 +159,11 @@ The script automates the deployment of TRAK-IT by handling Docker configurations
 
 We provide an HMI setup that may be connected for production or testing use cases. The HMI controls shuttles using the Web API to pass messages to shuttles. Note that the point-and-click logic from the v2 user interface has not been completed in v3 and may not be available depending on your integration setup.
 
-## Independence and Event-Driven Architecture
+### Independence and Event-Driven Architecture
 
 The HMI setup does not require additional server configuration as all of our services support the ability to work independently from one another and are event-driven.
 
-## Downloads
+### Downloads
 
 Please download the correct user interface package for Windows from our [releases page](https://github.com/palletshuttle/TrakIt-Release/releases).
 

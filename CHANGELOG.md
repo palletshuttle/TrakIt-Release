@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.44"></a>
+## [9.1.0-alpha.44](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.44) (2024-06-06)
+
+### Bug Fixes
+
+* Improve db-ready script with better logging and exception handling ([#597](https://www.github.com/palletshuttle/Trak-It/issues/597)) ([61ab11f](https://www.github.com/palletshuttle/Trak-It/commit/61ab11f4c95109daf4cc877f120778c21c1c747c))
+
+### Other
+
+* Fix minor typo in release docs that breaks GitHub note formatting ([2b7520d](https://www.github.com/palletshuttle/Trak-It/commit/2b7520dd19b93be8a8076b2158c1a74aa53bbd11))
+* Minor update to headers in release documentation ([782c8de](https://www.github.com/palletshuttle/Trak-It/commit/782c8dedacfa0c35f28888f168603c91b0251999))
+
 <a name="9.1.0-alpha.43"></a>
 ## [9.1.0-alpha.43](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.43) (2024-06-05)
 
