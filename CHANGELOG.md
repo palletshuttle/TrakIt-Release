@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.46"></a>
+## [9.1.0-alpha.46](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.46) (2024-06-12)
+
+### Bug Fixes
+
+* Remove state constraint on command generation for storage lanes to align with handling of obstacles in core pathing. ([#603](https://www.github.com/palletshuttle/Trak-It/issues/603)) ([9575f82](https://www.github.com/palletshuttle/Trak-It/commit/9575f8227e3ac395987ef5d13e800bdd8f76d9bf))
+
+<a name="9.1.0-alpha.45"></a>
+## [9.1.0-alpha.45](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.45) (2024-06-07)
+
+### Bug Fixes
+
+* Editing pass on release documentation ([#602](https://www.github.com/palletshuttle/Trak-It/issues/602)) ([7d31796](https://www.github.com/palletshuttle/Trak-It/commit/7d31796484313aec56ec9a5782a69410205dff9d))
+
+### Other
+
+* Fix pathing regression causing AI to retry pathing when transitioning from travel to travel into a storage lane. ([#601](https://www.github.com/palletshuttle/Trak-It/issues/601)) ([e64b60c](https://www.github.com/palletshuttle/Trak-It/commit/e64b60c0b064cd7b597c6f26a081364fa08daa5f))
+* Minor release doc update ([5d928ec](https://www.github.com/palletshuttle/Trak-It/commit/5d928ecec8fbb4f06d165796d584bd9966fd4dbf))
+
 <a name="9.1.0-alpha.44"></a>
 ## [9.1.0-alpha.44](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.44) (2024-06-06)
 
