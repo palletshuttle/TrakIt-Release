@@ -12,10 +12,11 @@ services:
     ports: ["1433:1433"]
     healthcheck:
       test: >-
-        /opt/mssql-tools/bin/sqlcmd
+        /opt/mssql-tools18/bin/sqlcmd
         -S localhost
-        -U sa
         -P "$$SA_PASSWORD"
+        -U sa
+        -N o
         -Q "SELECT 1" || exit 1
       interval: 10s
       timeout: 3s

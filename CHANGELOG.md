@@ -2,6 +2,73 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.52"></a>
+## [9.1.0-alpha.52](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.52) (2024-08-15)
+
+### Bug Fixes
+
+* gonna understand this pipeline one way or another ([#631](https://www.github.com/palletshuttle/Trak-It/issues/631)) ([4202e51](https://www.github.com/palletshuttle/Trak-It/commit/4202e518c223b92229e1a43284813a1e697480d1))
+
+### Other
+
+* fixing build issue in unity (#630) ([9e0bf00](https://www.github.com/palletshuttle/Trak-It/commit/9e0bf00cfb1cd04ce1df345824025cd5b3d642e8))
+* Text Mesh Pro Map Tile Update (#627) ([6ea655d](https://www.github.com/palletshuttle/Trak-It/commit/6ea655d6aacb71cc7fbfdb2acafd732fe76b30e8))
+
+<a name="9.1.0-alpha.51"></a>
+## [9.1.0-alpha.51](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.51) (2024-08-14)
+
+### Bug Fixes
+
+* removed pallet moved event code ([#629](https://www.github.com/palletshuttle/Trak-It/issues/629)) ([d9067d6](https://www.github.com/palletshuttle/Trak-It/commit/d9067d69e3ea39b1bed63a82c78c5ac0b489cb03))
+
+<a name="9.1.0-alpha.50"></a>
+## [9.1.0-alpha.50](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.50) (2024-08-01)
+
+### Bug Fixes
+
+* replicating ui windows release build error ([#626](https://www.github.com/palletshuttle/Trak-It/issues/626)) ([58ac63c](https://www.github.com/palletshuttle/Trak-It/commit/58ac63cde6e72c85e24a50277754844ef2c24652))
+
+<a name="9.1.0-alpha.49"></a>
+## [9.1.0-alpha.49](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.49) (2024-07-31)
+
+### Bug Fixes
+
+* change in sql bin repo for sql server ([#623](https://www.github.com/palletshuttle/Trak-It/issues/623)) ([f58c4a4](https://www.github.com/palletshuttle/Trak-It/commit/f58c4a4f110b2c301038174473e0c87336dfaa5d))
+* commiting sql change with correct development flow to trigger re… ([#621](https://www.github.com/palletshuttle/Trak-It/issues/621)) ([d377038](https://www.github.com/palletshuttle/Trak-It/commit/d3770388314804d631bd071670aed54eb1b519e5))
+* trying to release sql docker change ([#622](https://www.github.com/palletshuttle/Trak-It/issues/622)) ([874687b](https://www.github.com/palletshuttle/Trak-It/commit/874687bb7f5dc6951c8cd891d6cfa2ef4d029aeb))
+
+### Other
+
+* Example PR that triggers checks based on GH Action ci.yml configuration of on: tag (#624) ([28a74aa](https://www.github.com/palletshuttle/Trak-It/commit/28a74aae3c29329789d31c38be3e2aee4f84af02))
+
+<a name="9.1.0-alpha.48"></a>
+## [9.1.0-alpha.48](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.48) (2024-07-29)
+
+### Features
+
+* Integration message mapping ([#617](https://www.github.com/palletshuttle/Trak-It/issues/617)) ([4e552d1](https://www.github.com/palletshuttle/Trak-It/commit/4e552d1848c0ed5e1fbeb52cf3c131ff521a3da0))
+
+### Bug Fixes
+
+* sql server changed bin directory of sqlcmd and added default encryption. ([93a8b2b](https://www.github.com/palletshuttle/Trak-It/commit/93a8b2b448a5996907dde4e1336a1d8398b538b7))
+
+### Other
+
+* Adapt Compound shuttle task endpoint supporting many sub tasks adapting the contract to support new cloud integration (#616) ([e46ef70](https://www.github.com/palletshuttle/Trak-It/commit/e46ef7097dd33f05f554904abc5fa17c23aa55bb))
+* Create compound shuttle task endpoint supporting submission of batch of tasks. (#615) ([21f575a](https://www.github.com/palletshuttle/Trak-It/commit/21f575aaa366cb48f0c0f007f44eb7cac62ea997))
+
+<a name="9.1.0-alpha.47"></a>
+## [9.1.0-alpha.47](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.47) (2024-07-22)
+
+### Features
+
+* New System Health & Shuttle Command UI ([#614](https://www.github.com/palletshuttle/Trak-It/issues/614)) ([e6b0fbf](https://www.github.com/palletshuttle/Trak-It/commit/e6b0fbf01f0222766c73936c882dc36c2a4bdec9))
+
+### Other
+
+* UI updates system health - MA (#604) ([2e15314](https://www.github.com/palletshuttle/Trak-It/commit/2e153140f38193dd1b446b122ba0c77878ee349c))
+* Add support for push and pop methods to simplify lane interactions ([#606](https://www.github.com/palletshuttle/Trak-It/issues/606)) ([ca194fb](https://www.github.com/palletshuttle/Trak-It/commit/ca194fbf5e61bffb533f69a24bf403b8de532ddd))
+
 <a name="9.1.0-alpha.46"></a>
 ## [9.1.0-alpha.46](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.46) (2024-06-12)
 
