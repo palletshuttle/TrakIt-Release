@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.53"></a>
+## [9.1.0-alpha.53](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.53) (2024-08-22)
+
+### Bug Fixes
+
+* Shuttle Auto/Manual Mode UI ([#632](https://www.github.com/palletshuttle/Trak-It/issues/632)) ([2a327c2](https://www.github.com/palletshuttle/Trak-It/commit/2a327c2c6c2b7d0906e575badf416def4f4e13af))
+
 <a name="9.1.0-alpha.52"></a>
 ## [9.1.0-alpha.52](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.52) (2024-08-15)
 
