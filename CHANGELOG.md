@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.56"></a>
+## [9.1.0-alpha.56](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.56) (2024-08-29)
+
+### Bug Fixes
+
+* AppSettingsSelection reference ([#640](https://www.github.com/palletshuttle/Trak-It/issues/640)) ([a1c3272](https://www.github.com/palletshuttle/Trak-It/commit/a1c3272538095290d680ae29512ac0918d57606a))
+
+<a name="9.1.0-alpha.55"></a>
+## [9.1.0-alpha.55](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.55) (2024-08-29)
+
+### Bug Fixes
+
+* compound action endpoint submission ([#639](https://www.github.com/palletshuttle/Trak-It/issues/639)) ([4001915](https://www.github.com/palletshuttle/Trak-It/commit/4001915510e71cfcd63c51c54766cdbcf6732ad5))
+
+<a name="9.1.0-alpha.54"></a>
+## [9.1.0-alpha.54](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.54) (2024-08-29)
+
+### Bug Fixes
+
+* Trigger release ([#638](https://www.github.com/palletshuttle/Trak-It/issues/638)) ([e95ae02](https://www.github.com/palletshuttle/Trak-It/commit/e95ae02fc533679bb61af4c5ccc1b7a5b52a0d3b))
+
+### Other
+
+* Customer demo prep for august 26th (#634) ([07e110b](https://www.github.com/palletshuttle/Trak-It/commit/07e110b7e2f5e905ec4cde5013f3c3abba00202d))
+* Customer demo prep for august 26th (#635) ([ad1724b](https://www.github.com/palletshuttle/Trak-It/commit/ad1724bc0d37ea5f5e7d072c3be9060d889ace81))
+* Customer demo prep for august 26th (#637) ([45f8450](https://www.github.com/palletshuttle/Trak-It/commit/45f845081112f27cfcb757a98086f3a01ee68981))
+
 <a name="9.1.0-alpha.53"></a>
 ## [9.1.0-alpha.53](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.53) (2024-08-22)
 
