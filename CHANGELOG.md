@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.59"></a>
+## [9.1.0-alpha.59](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.59) (2024-09-03)
+
+### Bug Fixes
+
+* trigger build ([#643](https://www.github.com/palletshuttle/Trak-It/issues/643)) ([83f0aa0](https://www.github.com/palletshuttle/Trak-It/commit/83f0aa0819c4196d78436480b055eb5186a4ca46))
+
+<a name="9.1.0-alpha.58"></a>
+## [9.1.0-alpha.58](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.58) (2024-09-03)
+
+### Bug Fixes
+
+* trigger build ([#642](https://www.github.com/palletshuttle/Trak-It/issues/642)) ([0892788](https://www.github.com/palletshuttle/Trak-It/commit/0892788b09998a5aefbc4dc1ecd1a35d7ea691e6))
+
+<a name="9.1.0-alpha.57"></a>
+## [9.1.0-alpha.57](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.57) (2024-09-03)
+
+### Bug Fixes
+
+* Avectous endpoint change ([#641](https://www.github.com/palletshuttle/Trak-It/issues/641)) ([729bf1a](https://www.github.com/palletshuttle/Trak-It/commit/729bf1a22a4c585478548cdefd0cc7c17284b434))
+
 <a name="9.1.0-alpha.56"></a>
 ## [9.1.0-alpha.56](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.56) (2024-08-29)
 
