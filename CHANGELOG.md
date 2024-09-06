@@ -2,69 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.61"></a>
+## [9.1.0-alpha.61](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.61) (2024-09-06)
+
+### Bug Fixes
+
+* Reverting ([#645](https://www.github.com/palletshuttle/Trak-It/issues/645)) ([40dbad8](https://www.github.com/palletshuttle/Trak-It/commit/40dbad8d1260f73211b86b7d455784171bf92cbc))
+* trigger-build ([#646](https://www.github.com/palletshuttle/Trak-It/issues/646)) ([25b3c2f](https://www.github.com/palletshuttle/Trak-It/commit/25b3c2f9cc180935ed4579f724318500838cb870))
+
 <a name="9.1.0-alpha.60"></a>
-## [9.1.0-alpha.60](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.60) (2024-09-04)
-
-### Bug Fixes
-
-* move command ([#644](https://www.github.com/palletshuttle/Trak-It/issues/644)) ([18cc02c](https://www.github.com/palletshuttle/Trak-It/commit/18cc02c1339e8866ad637f94a98d1e2374174286))
-
-<a name="9.1.0-alpha.59"></a>
-## [9.1.0-alpha.59](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.59) (2024-09-03)
-
-### Bug Fixes
-
-* trigger build ([#643](https://www.github.com/palletshuttle/Trak-It/issues/643)) ([83f0aa0](https://www.github.com/palletshuttle/Trak-It/commit/83f0aa0819c4196d78436480b055eb5186a4ca46))
-
-<a name="9.1.0-alpha.58"></a>
-## [9.1.0-alpha.58](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.58) (2024-09-03)
-
-### Bug Fixes
-
-* trigger build ([#642](https://www.github.com/palletshuttle/Trak-It/issues/642)) ([0892788](https://www.github.com/palletshuttle/Trak-It/commit/0892788b09998a5aefbc4dc1ecd1a35d7ea691e6))
-
-<a name="9.1.0-alpha.57"></a>
-## [9.1.0-alpha.57](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.57) (2024-09-03)
-
-### Bug Fixes
-
-* Avectous endpoint change ([#641](https://www.github.com/palletshuttle/Trak-It/issues/641)) ([729bf1a](https://www.github.com/palletshuttle/Trak-It/commit/729bf1a22a4c585478548cdefd0cc7c17284b434))
-
-<a name="9.1.0-alpha.56"></a>
-## [9.1.0-alpha.56](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.56) (2024-08-29)
-
-### Bug Fixes
-
-* AppSettingsSelection reference ([#640](https://www.github.com/palletshuttle/Trak-It/issues/640)) ([a1c3272](https://www.github.com/palletshuttle/Trak-It/commit/a1c3272538095290d680ae29512ac0918d57606a))
-
-<a name="9.1.0-alpha.55"></a>
-## [9.1.0-alpha.55](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.55) (2024-08-29)
-
-### Bug Fixes
-
-* compound action endpoint submission ([#639](https://www.github.com/palletshuttle/Trak-It/issues/639)) ([4001915](https://www.github.com/palletshuttle/Trak-It/commit/4001915510e71cfcd63c51c54766cdbcf6732ad5))
-
-<a name="9.1.0-alpha.54"></a>
-## [9.1.0-alpha.54](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.54) (2024-08-29)
-
-### Bug Fixes
-
-* Trigger release ([#638](https://www.github.com/palletshuttle/Trak-It/issues/638)) ([e95ae02](https://www.github.com/palletshuttle/Trak-It/commit/e95ae02fc533679bb61af4c5ccc1b7a5b52a0d3b))
-
-### Other
-
-* Customer demo prep for august 26th (#634) ([07e110b](https://www.github.com/palletshuttle/Trak-It/commit/07e110b7e2f5e905ec4cde5013f3c3abba00202d))
-* Customer demo prep for august 26th (#635) ([ad1724b](https://www.github.com/palletshuttle/Trak-It/commit/ad1724bc0d37ea5f5e7d072c3be9060d889ace81))
-* Customer demo prep for august 26th (#637) ([45f8450](https://www.github.com/palletshuttle/Trak-It/commit/45f845081112f27cfcb757a98086f3a01ee68981))
-
-<a name="9.1.0-alpha.53"></a>
 ## [9.1.0-alpha.53](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.53) (2024-08-22)
 
 ### Bug Fixes
 
 * Shuttle Auto/Manual Mode UI ([#632](https://www.github.com/palletshuttle/Trak-It/issues/632)) ([2a327c2](https://www.github.com/palletshuttle/Trak-It/commit/2a327c2c6c2b7d0906e575badf416def4f4e13af))
 
-<a name="9.1.0-alpha.52"></a>
+<a name="9.1.0-alpha.60"></a>
 ## [9.1.0-alpha.52](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.52) (2024-08-15)
 
 ### Bug Fixes
