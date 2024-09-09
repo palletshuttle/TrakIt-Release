@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.64"></a>
+## [9.1.0-alpha.64](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.64) (2024-09-09)
+
+### Bug Fixes
+
+* correcting an oopsie ([#651](https://www.github.com/palletshuttle/Trak-It/issues/651)) ([71faa4f](https://www.github.com/palletshuttle/Trak-It/commit/71faa4fd608cda9dee98e53f77d9b98e33588e0b))
+
+<a name="9.1.0-alpha.63"></a>
+## [9.1.0-alpha.63](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.63) (2024-09-09)
+
+### Bug Fixes
+
+* avectous endpoint hookup ([#650](https://www.github.com/palletshuttle/Trak-It/issues/650)) ([568383e](https://www.github.com/palletshuttle/Trak-It/commit/568383ec2fdbc35a0174590257363143ecc4baa0))
+
+### Other
+
+* Dev space + server reset sql (#649) ([6686748](https://www.github.com/palletshuttle/Trak-It/commit/668674800c3d33e332b6b890fa44b7c62b545897))
+
 <a name="9.1.0-alpha.62"></a>
 ## [9.1.0-alpha.62](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.62) (2024-09-06)
 

@@ -10,6 +10,9 @@ services:
       com.jetbrains.rider.debug: "false"
     networks: [backend]
     ports: ["1433:1433"]
+    volumes:
+      - ../sql_data:/var/opt/mssql
+      - ../sql_logs:/var/opt/mssql/log
     healthcheck:
       test: >-
         /opt/mssql-tools18/bin/sqlcmd
