@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.65"></a>
+## [9.1.0-alpha.65](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.65) (2024-09-25)
+
+### Features
+
+* added endpoint to set ip of shuttles ([#652](https://www.github.com/palletshuttle/Trak-It/issues/652)) ([6c62237](https://www.github.com/palletshuttle/Trak-It/commit/6c62237376b00f971d83ff39ee1438e0f6fbb67c))
+
+### Other
+
+* Shuttle Select UI Covering Pallet ([#648](https://www.github.com/palletshuttle/Trak-It/issues/648)) ([f6a30ea](https://www.github.com/palletshuttle/Trak-It/commit/f6a30ea4633ce25318f9471490033dfe4cb1afcc))
+
 <a name="9.1.0-alpha.64"></a>
 ## [9.1.0-alpha.64](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.64) (2024-09-09)
 
