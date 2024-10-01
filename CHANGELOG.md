@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.66"></a>
+## [9.1.0-alpha.66](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.66) (2024-10-01)
+
+### Features
+
+* build ([741b546](https://www.github.com/palletshuttle/Trak-It/commit/741b546902f6bddc405b16087be80ce633b95819))
+
+### Bug Fixes
+
+* seq test and more commands ([#656](https://www.github.com/palletshuttle/Trak-It/issues/656)) ([119870d](https://www.github.com/palletshuttle/Trak-It/commit/119870d0448759bd260ce4f1d15037e11c45d400))
+* seqid mismatch fix ([#655](https://www.github.com/palletshuttle/Trak-It/issues/655)) ([204de85](https://www.github.com/palletshuttle/Trak-It/commit/204de8508b3c7f2eac5c082bdbc9b100f316cedd))
+
+### Other
+
+* Shuttle command routines (#653) ([a656eb4](https://www.github.com/palletshuttle/Trak-It/commit/a656eb456912e3554b32818df7a9e8c09cb7c9fa))
+* added defrag shuttle commands to command list ([#654](https://www.github.com/palletshuttle/Trak-It/issues/654)) ([e6d8282](https://www.github.com/palletshuttle/Trak-It/commit/e6d82822c3165e930a99166af3bf4216aeb25836))
+
 <a name="9.1.0-alpha.65"></a>
 ## [9.1.0-alpha.65](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.65) (2024-09-25)
 
