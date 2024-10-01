@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="9.1.0-alpha.67"></a>
+## [9.1.0-alpha.67](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.67) (2024-10-01)
+
+### Bug Fixes
+
+* help ([#659](https://www.github.com/palletshuttle/Trak-It/issues/659)) ([95172e7](https://www.github.com/palletshuttle/Trak-It/commit/95172e7b3776b52c046599925e8df77dcf25de8c))
+
+### Other
+
+* maybe ([#657](https://www.github.com/palletshuttle/Trak-It/issues/657)) ([77611e8](https://www.github.com/palletshuttle/Trak-It/commit/77611e8cfaf38c11e8b47b8d5e07cb9792407967))
+
 <a name="9.1.0-alpha.66"></a>
 ## [9.1.0-alpha.66](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.66) (2024-10-01)
 
