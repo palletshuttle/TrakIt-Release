@@ -43,6 +43,7 @@ services:
       file: docker-compose.base.yml
       service: base
     networks: [backend]
+    env_file: .env
 
   shuttle-comms-service:
     build:
