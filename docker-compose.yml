@@ -58,7 +58,6 @@ services:
     networks: [backend]
     profiles: [physical]
 
-
 networks:
   backend:
     driver: bridge
