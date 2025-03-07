@@ -1,3 +1,7 @@
+# Release v2025.03.07-cf374673 - 2025-03-07
+
+Latest release: v2025.03.07-cf374673
+
 # Change Log
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
