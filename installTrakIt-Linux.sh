@@ -4,7 +4,7 @@
 hostSqlServer=true
 hostRabbitmq=true
 profile=""
-tag="alpha"
+tag="latest"
 mapSeedJson=""
 databaseOptions_ConnectionString=""
 identityDatabase_ConnectionString=""
@@ -23,7 +23,7 @@ function show_help {
     echo "  --host-sqlserver [true|false]      Host SQL Server in Docker. Default is true. If set to false, see the note below for required environment variables."
     echo "  --host-rabbitmq [true|false]       Host RabbitMQ in Docker. Default is true. If set to false, see the note below for required environment variables."
     echo "  --profile PROFILE                  The Docker compose profile to use for shuttle services. If not specified, it is assumed the shuttle gateway is being deployed separately. Options: 'virtual' or 'physical'."
-    echo "  --tag TAG                          The tag for Docker images. Default is 'alpha'."
+    echo "  --tag TAG                          The tag for Docker images. Default is 'latest'."
     echo "  --docker-context CONTEXT           Set the Docker context to use."
     echo "  --help                             Display this help and exit."
     echo ""
