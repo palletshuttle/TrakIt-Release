@@ -1,18 +1,35 @@
 version: "3.8"
 
 services:
-  ai-service:
+
+  frontend:
     build:
       context: .
-      dockerfile: src/TrakIt/TrakIt.AI.Service/Dockerfile
+      dockerfile: src/TrakIt.FrontEnd/Dockerfile
     depends_on:
       db-ready:
         condition: service_completed_successfully
     extends:
       file: docker-compose.base.yml
       service: base
-    image: ghcr.io/palletshuttle/ai-service:${TAG:-latest}
+    image: ghcr.io/palletshuttle/frontend:${TAG:-latest}
     networks: [backend]
+    ports: ["8080:8080"]
+
+  mapf-api:
+    build:
+      context: .
+      dockerfile: src/TrakIt.MAPF.Api/Dockerfile
+    depends_on:
+      db-ready:
+        condition: service_completed_successfully
+    extends:
+      file: docker-compose.base.yml
+      service: base
+    image: ghcr.io/palletshuttle/mapf-api:${TAG:-latest}
+    networks: [backend]
+    ports: ["8083:8080"]
+    env_file: .env
 
   db-ready:
     build:
@@ -26,17 +43,6 @@ services:
       file: docker-compose.base.yml
       service: base
     networks: [backend]
-
-  event-hub:
-    build:
-      context: .
-      dockerfile: src/TrakIt.EventHub/src/Dockerfile
-    extends:
-      file: docker-compose.base.yml
-      service: base
-    image: ghcr.io/palletshuttle/event-hub:${TAG:-latest}
-    networks: [backend]
-    ports: ["8082:8080"]
 
   shuttle-comms-service:
     build:
@@ -52,57 +58,7 @@ services:
     networks: [backend]
     profiles: [physical]
 
-  ui:
-    build:
-      context: .
-      dockerfile: src/TrakIt.UI/src/Dockerfile
-    depends_on:
-      db-ready:
-        condition: service_completed_successfully
-    extends:
-      file: docker-compose.base.yml
-      service: base
-    image: ghcr.io/palletshuttle/ui:${TAG:-latest}
-    networks: [backend]
-    ports: ["8080:8080"]
-
-  virtual-shuttle-service:
-    build:
-      context: .
-      dockerfile: src/VirtualShuttleService/VirtualShuttleService/Dockerfile
-    depends_on:
-      db-ready:
-        condition: service_completed_successfully
-    extends:
-      file: docker-compose.base.yml
-      service: base
-    image: ghcr.io/palletshuttle/virtual-shuttle-service:${TAG:-latest}
-    networks: [backend]
-    profiles: [virtual]
-
-  web-api:
-    build:
-      context: .
-      dockerfile: src/TrakIt.WebApi/src/Dockerfile
-    depends_on:
-      db-ready:
-        condition: service_completed_successfully
-    extends:
-      file: docker-compose.base.yml
-      service: base
-    image: ghcr.io/palletshuttle/web-api:${TAG:-latest}
-    networks: [backend]
-    ports: ["8081:8080"]
 
 networks:
   backend:
     driver: bridge
-# TODO: VTU Service
-
-secrets:
-  UNITY_USERNAME:
-    environment: "UNITY_USERNAME"
-  UNITY_PASSWORD:
-    environment: "UNITY_PASSWORD"
-  UNITY_LICENSE:
-    environment: "UNITY_LICENSE"

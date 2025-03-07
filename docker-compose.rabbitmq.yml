@@ -17,34 +17,45 @@ services:
     networks: [backend]
     ports: ["15672:15672", "5672:5672"]
     
-  ai-service:
+  mapf-api:
     depends_on:
       rabbitmq:
         condition: service_healthy
-        
-  event-hub:
+  
+  frontend:
     depends_on:
       rabbitmq:
         condition: service_healthy
-        
+
   shuttle-comms-service:
     depends_on:
       rabbitmq:
         condition: service_healthy
-  ui:
-    depends_on:
-      rabbitmq:
-        condition: service_healthy
         
-  virtual-shuttle-service:
-    depends_on:
-      rabbitmq:
-        condition: service_healthy
+  # ai-service:
+  #   depends_on:
+  #     rabbitmq:
+  #       condition: service_healthy
         
-  web-api:
-    depends_on:
-      rabbitmq:
-        condition: service_healthy
+  # event-hub:
+  #   depends_on:
+  #     rabbitmq:
+  #       condition: service_healthy
+        
+  # ui:
+  #   depends_on:
+  #     rabbitmq:
+  #       condition: service_healthy
+        
+  # virtual-shuttle-service:
+  #   depends_on:
+  #     rabbitmq:
+  #       condition: service_healthy
+        
+  # web-api:
+  #   depends_on:
+  #     rabbitmq:
+  #       condition: service_healthy
 
 networks:
   backend:

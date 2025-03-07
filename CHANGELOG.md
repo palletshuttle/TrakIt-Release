@@ -2,12 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
-<a name="9.1.0"></a>
-## [9.1.0](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0) (2024-10-04)
+<a name="9.1.0-alpha.70"></a>
+## [9.1.0-alpha.70](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.70) (2024-10-14)
 
-### Other
+### Features
 
-* catching master up with the times (#666) ([714bb7c](https://www.github.com/palletshuttle/Trak-It/commit/714bb7c8d11585182f7682cdb5ecd255d1cb854d))
+* added VTU routines for demo ([#677](https://www.github.com/palletshuttle/Trak-It/issues/677)) ([a71f02f](https://www.github.com/palletshuttle/Trak-It/commit/a71f02febf618a02ad4fb4d71c4d669709ccf7b0))
+
+### Bug Fixes
+
+* nugget failed build ([#662](https://www.github.com/palletshuttle/Trak-It/issues/662)) ([9cb5a44](https://www.github.com/palletshuttle/Trak-It/commit/9cb5a44765ce79a8f8ee437280fce390c8470bcc))
 
 <a name="9.1.0-alpha.69"></a>
 ## [9.1.0-alpha.69](https://www.github.com/palletshuttle/Trak-It/releases/tag/v9.1.0-alpha.69) (2024-10-01)
