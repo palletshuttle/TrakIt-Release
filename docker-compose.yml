@@ -6,9 +6,6 @@ services:
     build:
       context: .
       dockerfile: src/TrakIt.FrontEnd/Dockerfile
-    depends_on:
-      db-ready:
-        condition: service_completed_successfully
     extends:
       file: docker-compose.base.yml
       service: base
