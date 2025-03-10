@@ -1,6 +1,6 @@
-# Release v2025.03.07-cf374673 - 2025-03-07
+# Release v2025.03.10-32ea3c57 - 2025-03-10
 
-Latest release: v2025.03.07-cf374673
+Latest release: v2025.03.10-32ea3c57
 
 # Change Log
 
