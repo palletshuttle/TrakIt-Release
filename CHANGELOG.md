@@ -1,6 +1,6 @@
-# Release v2025.04.16-7a3cc442 - 2025-04-16
+# Release v2025.04.22-2c82bf55 - 2025-04-22
 
-Latest release: v2025.04.16-7a3cc442
+Latest release: v2025.04.22-2c82bf55
 
 # Change Log
 
