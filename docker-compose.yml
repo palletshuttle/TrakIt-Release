@@ -23,7 +23,7 @@ services:
       service: base
     image: ghcr.io/palletshuttle/mapf-api:${TAG:-latest}
     networks: [backend]
-    ports: ["8083:8080"]
+    ports: ["8083:8079"]
     env_file: .env
 
   db-ready:
