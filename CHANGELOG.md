@@ -1,6 +1,6 @@
-# Release v2025.05.14-d2a14227 - 2025-05-14
+# Release v2025.05.15-36d3f7a4 - 2025-05-15
 
-Latest release: v2025.05.14-d2a14227
+Latest release: v2025.05.15-36d3f7a4
 
 # Change Log
 
