@@ -1,6 +1,6 @@
-# Release v2025.05.29-beaffb8f - 2025-05-29
+# Release v2025.05.30-08a08879 - 2025-05-30
 
-Latest release: v2025.05.29-beaffb8f
+Latest release: v2025.05.30-08a08879
 
 # Change Log
 
